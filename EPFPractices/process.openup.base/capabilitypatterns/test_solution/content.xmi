@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="--GUCGSJomnx0WV9XKvVyXQ" name="test_solution,_buG4sdOFEdyqlogshP8l4g" guid="--GUCGSJomnx0WV9XKvVyXQ" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    This activity is repeated throughout the project lifecycle. The main goal of this activity is to validate that the&#xD;
+    current build of the system satisfies the requirements allocated to it.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Throughout the iterations, your intent is to validate that the implemented requirements reflect a robust architecture,&#xD;
+    and that the remaining requirements are consistently implemented on top of that architecture. As developers implement&#xD;
+    the solution for the requirements in a given iteration, unit test the integrated source code. Then, a&#xD;
+    tester&amp;nbsp;conducts system-level testing in parallel with development to make sure that the solution, which is&#xD;
+    continuously being integrated, satisfies the intent specified in the test cases. The tester defines what techniques to&#xD;
+    use, what the data input is, and what test suites to create. As tests run, defects are identified and added to the work&#xD;
+    items list, so that they can be prioritized as part of the work that you will do during iterations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Stakeholders and end-users also may also be involved in performing tests to accept the release.&#xD;
+&lt;/p></mainDescription>
+  <purpose>Develop and run test scripts to validate that the system satisfies the requirements.</purpose>
+  <howtoStaff>&lt;p>&#xD;
+    The staff performing this activity must be integrated into the team.&#xD;
+&lt;/p></howtoStaff>
+  <usageNotes>&lt;p>&#xD;
+    Testing must occur throughout the process and throughout each iteration. Testing is not a final inspection to be&#xD;
+    performed at the end of the project. As requirements are implemented and integrated into a build, you should test them&#xD;
+    as soon as possible.&#xD;
+&lt;/p></usageNotes>
+</org.eclipse.epf.uma:ProcessDescription>

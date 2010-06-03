@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-gNCvPJgehxo6Gnb98n0AhA" name="new_roadmap,_rV_9MPndEdyLA5PXdgVJXw" guid="-gNCvPJgehxo6Gnb98n0AhA" changeDate="2008-08-07T19:25:25.928-0300" version="7.2.0">
+  <mainDescription>&lt;h3>&#xD;
+    How to adopt this practice&#xD;
+&lt;/h3>&#xD;
+&lt;p> The following is a list of points that you need to consider when you adopt &#xD;
+  this practice. &lt;/p>&#xD;
+&lt;p> Process scope: &lt;/p>&#xD;
+&lt;ul>&#xD;
+    &#xD;
+  &lt;li> &lt;b>Test coverage:&lt;/b> component, feature, and subsystem, or all three&lt;/li>&#xD;
+  &lt;li>&lt;b> Focus on the main elements:&lt;/b> tasks, artifacts, guidelines&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p> Team impact: &lt;/p>&#xD;
+&lt;ul>&#xD;
+  &lt;li>&lt;b>Team composition:&lt;/b> Testers are part of the team, not external resources &#xD;
+    that are involved only at specific points.&lt;/li>&#xD;
+  &lt;li> &lt;b>Roles: &lt;/b>This practice also needs to be adopted by developers to make &#xD;
+    sure that they provide tested components. &lt;/li>&#xD;
+  &lt;li> &lt;b>Skills: &lt;/b>Testers need to adopt a more technical skill set, and developers &#xD;
+    can also fill the Tester role.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>Development approach:&lt;/p>&#xD;
+&lt;ul>&#xD;
+  &lt;li>Set a goal of stable builds that can be tested from end-to-end. &lt;/li>&#xD;
+  &lt;li>Provide smaller increments of functionality. &lt;/li>&#xD;
+  &lt;li>Institute &amp;quot;walkthroughs&amp;quot; to determine whether a micro-increment &#xD;
+    is correct. &lt;/li>&#xD;
+  &lt;li>Build and test frequently throughout an iteration. &lt;/li>&#xD;
+  &lt;li>Make passing automated tests the team's definition of &quot;finished&quot; for a requirement.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>Reach a pattern where the team continuously develops micro-increments, tests &#xD;
+  them, and then regression tests the product throughout the day. Obviously, this &#xD;
+  involves a high degree of regression test automation. Achieving this level of &#xD;
+  automation requires the concerted effort of the whole team, across all the levels &#xD;
+  of testing, with automated unit, integration, system, and acceptance tests.&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

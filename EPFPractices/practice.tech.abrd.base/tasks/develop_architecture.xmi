@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-AUjqKQk_naPhdZWAQR-Mmg" name=",_nOQHsAp6EdyPCr4G1Tb79A" guid="-AUjqKQk_naPhdZWAQR-Mmg" authors="Jerome Boyer" changeDate="2008-09-23T18:44:26.685-0300" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    The architect has to address as soon as possible in the project life cycle:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Integrate the Rule Engine into the business application using a service oriented design to facilitate reuse and&#xD;
+        scalability. If an embedded solution is the choice for accessing the BRE the design should address the engine&#xD;
+        integration at the API level.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Deploy Business Rules Management System into the business and IT organizations. This includes the deployment of the&#xD;
+        Rule Developer IDE and Rule Analyst web based component into the IT architecture. It also addresses the change&#xD;
+        management processes to design on top of the tools.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    For a BRMS deployment architect needs to integrate the following components within the IT architecture:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The Rule Engine as an executable class, callable using proprietary API or the JSR94 API. Rule Engine can be an&#xD;
+        embedded component or deployed within a pool as reusable components. Java Connector Architecture can be a solution&#xD;
+        to manage a pool of Rule Engines. JCA implementation offers a set of services which any deployed adapters can&#xD;
+        leverage: such as security and transaction propagation.&amp;nbsp;&lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The Rule Set(s): As script file, it needs to be managed and deployed dynamically and can follow a specific life&#xD;
+        cycle. It can be also packaged as a jar and available after the system startup, or hot deployed using JMX.&lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The IDE, like a Rule Studio, used by the developers to implement the rules, the rule set structure and the&#xD;
+        technical elements of the rule sets.&lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A Web based Rule management platform to let business users and analysts being able to maintain the rules.&lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A Rule testing framework to support functional testing of the rule set and non-regression tests.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;376&quot; alt=&quot;&quot; src=&quot;./resources/BRMScomponents.bmp&quot; width=&quot;487&quot; />&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_RMRccChaEd2bfOOTyXGWkw" name="Analyze business and technical requirements" guid="_RMRccChaEd2bfOOTyXGWkw"/>
+  <sections xmi:id="_yIEJ4Ap6EdyPCr4G1Tb79A" name="Design the decision service interface" guid="_yIEJ4Ap6EdyPCr4G1Tb79A"/>
+  <sections xmi:id="_r5SRoChaEd2bfOOTyXGWkw" name="Implement the interface with POJO / EJB or .Net classes" guid="_r5SRoChaEd2bfOOTyXGWkw"/>
+  <sections xmi:id="_venZkChaEd2bfOOTyXGWkw" name="Add the connection code to the BRE" guid="_venZkChaEd2bfOOTyXGWkw"/>
+  <sections xmi:id="_yFzeQChaEd2bfOOTyXGWkw" name="Design the control parameters to add to the context of the rule execution" guid="_yFzeQChaEd2bfOOTyXGWkw"/>
+  <sections xmi:id="_HDD68Im5Ed2cL6yqw-_-uA" name="Design the transaction propagation" guid="_HDD68Im5Ed2cL6yqw-_-uA"/>
+  <sections xmi:id="_04xVIChaEd2bfOOTyXGWkw" name="Design the exception reporting" guid="_04xVIChaEd2bfOOTyXGWkw"/>
+  <sections xmi:id="_27c-kChaEd2bfOOTyXGWkw" name="Assess Performance" guid="_27c-kChaEd2bfOOTyXGWkw"/>
+  <keyConsiderations>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 10pt&quot;>&#xD;
+    &lt;span style=&quot;mso-bidi-language: HE&quot;>Integrating the BRE into the business application involves Middleware, server&#xD;
+    implementation and architecture background. Integrating BRMS into the business and IT organization involves process&#xD;
+    definition, development practices and methodology skills.&lt;/span>&#xD;
+&lt;/p></keyConsiderations>
+  <purpose>Develop the piece of the software architecture related to the execution of the rules, and their management.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

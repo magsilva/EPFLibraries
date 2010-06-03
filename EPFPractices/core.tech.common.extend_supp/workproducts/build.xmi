@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_NqSB0KeqEdmKDbQuyzCoqQ" name="build,_0YuXEMlgEdmt3adZL5Dmdw" guid="_NqSB0KeqEdmKDbQuyzCoqQ" changeDate="2009-07-22T15:25:06.216-0300" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    This working version of the system is the result of putting the implementation of the system through a build process&#xD;
+    (typically an automated build script) that creates an executable version of the system, or one that runs. This&#xD;
+    executable version of the system will typically have a number of supporting files that are also considered part of this&#xD;
+    composite artifact.&#xD;
+&lt;/p></mainDescription>
+  <purpose>Deliver incremental value to the user and customer, and provide a testable artifact &#xD;
+for verification.</purpose>
+  <impactOfNotHaving>&lt;p> Without this artifact, there is no operational version of the system. &lt;/p></impactOfNotHaving>
+  <reasonsForNotNeeding>&lt;p>&#xD;
+    This artifact is not needed if the development of an application is not within the scope of the solution.&#xD;
+&lt;/p></reasonsForNotNeeding>
+  <representationOptions>&lt;p> This work product is&amp;nbsp;almost always a composite product made up of numerous &#xD;
+  parts required to make the executable system. Therefore, a build is more than &#xD;
+  just executable files; it also includes such things as configuration files, &#xD;
+  Help files, and data repositories that will be put together, resulting in the &#xD;
+  product that the users will run. The specifics of those parts will vary by technology &#xD;
+  in use. &lt;/p></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

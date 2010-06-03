@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:PracticeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-r3bcpa8I8s9Ta-F-krEwBA" name="new_practice,_tz6tkB4uEd2bS8fFOQ7WWA" guid="-r3bcpa8I8s9Ta-F-krEwBA" changeDate="2008-10-14T20:17:29.281-0300" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    This practice describes the simplest possible change management approach, one in which change management is an integral&#xD;
+    part of project management.  In this approach, any one may request a change to the system (or supporting&#xD;
+    artifacts) at any time, either to correct a defect identified or to add an enhancement.  The request for change is&#xD;
+    captured on the backlog of outstanding &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html&quot; guid=&quot;_1QZI8EfUEdyiPI8btkmvmw&quot;>[Project Work]&lt;/a>.  During project planning the team reviews the backlog,&#xD;
+    prioritizes work and decides which changes will be implemented next.&#xD;
+&lt;/p></mainDescription>
+  <problem>&lt;p>&#xD;
+    At any time, any member of the team may uncover defects or propose new requirements that are not in scope for the&#xD;
+    iteration. There should be some process for tracking such requests, so that they do not get lost.&amp;nbsp; This practice&#xD;
+    simply captures such requests as work items, and assumes that work item management practices will address the&#xD;
+    acceptance, assignment, verification, and closure of such requests.&#xD;
+&lt;/p></problem>
+  <application>&lt;p>&#xD;
+    The best way to read this practice is to first familiarize yourself with its overall structure: what is in it and&#xD;
+    how it is organized. &#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Review the task: &lt;a class=&quot;elementLink&quot; href=&quot;./../../../practice.mgmt.team_change_mgmt.base/tasks/request_change_A048C387.html&quot; guid=&quot;_0mwzEclgEdmt3adZL5Dmdw&quot;>Request Change&lt;/a> and associated guidance. Next, review the &lt;a class=&quot;elementLink&quot; href=&quot;./../../../practice.mgmt.iterative_dev.base/guidances/practices/iterative_development_CD1297B8.html&quot; guid=&quot;_LR_g4J9WEdy3Nc4rvuj7bA&quot;>Iterative Development&lt;/a> practice to understand how change requests are captured&#xD;
+    and managed on the &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html&quot; guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;>Work Items List&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For step-by-step instructions on how to adopt this practice, see &lt;a class=&quot;elementLink&quot; href=&quot;./../../../practice.mgmt.team_change_mgmt.base/guidances/roadmaps/how_to_adopt_F8AAB87D.html&quot; guid=&quot;_PJoMYOxbEdyCFeiQwJE7Vg&quot;>How to Adopt the Team Change Management Practice&lt;/a>.&#xD;
+&lt;/p></application>
+</org.eclipse.epf.uma:PracticeDescription>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-LP0SlsHoERAIzSe1UpKmlw" name="build_test_scenario,_1dlWkH3GEd2sJcA0evSBQw" guid="-LP0SlsHoERAIzSe1UpKmlw" authors="Jerome Boyer" changeDate="2008-09-22T13:48:44.195-0300">
+  <mainDescription>&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Times','serif'; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;>&lt;font&#xD;
+     face=&quot;Arial&quot;>Developing without testing has no sense today (we hope!). Developing rules deployed in rule engine&#xD;
+    helps&amp;nbsp;us supporting efficiently a Test Driven Development approach. Rule set can be isolated&amp;nbsp;early in the&#xD;
+    development process and can be tested in a sandbox environment. Writing tests before the rule makes testing part of a&#xD;
+    validation feedback loop.&amp;nbsp;&amp;nbsp;So during the harvesting phase the analysis team needs to develop test scenario&#xD;
+    and data elements to support the rule writing and testing. Working on concrete scenario leads to clarify ambiguities,&#xD;
+    find holes in the decision processing, and enhance rules decision coverage, and the overall quality.&lt;/font>&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    At this level the scenario description can be built as user story with persona involvement, and data point to&#xD;
+    illustrate the scenario.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

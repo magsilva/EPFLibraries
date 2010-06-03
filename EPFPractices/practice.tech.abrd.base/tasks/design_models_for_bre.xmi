@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-x2B_poM4twsuSvzhIuu6Zg" name="design_model_for_bre,_lYC2IGDAEdyKlZvvtnMrMg" guid="-x2B_poM4twsuSvzhIuu6Zg" authors="Jerome Boyer" changeDate="2008-09-25T15:07:07.900-0300">
+  <mainDescription>&lt;p>&#xD;
+    This is an important activity as we do not expose an enterprise model or a physical model as&amp;nbsp;is to a rule engine.&#xD;
+    We need to create views of such complex models. The simplest mechanism uses XML Schema definition to define the model&#xD;
+    exchanged between the caller and the rule service. Most of the server implementation are using a Java implementation,&#xD;
+    so it may makes sense to leverage a Java to/ from XML binding as JAXB to easily test and implement the business&#xD;
+    services and the models.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In any cases&amp;nbsp;&amp;nbsp;the architect and developer of the executable models need to take into account the existing&#xD;
+    physical models and the outcomes of the rule discovery and analysis, to be sure that the rule can execute&#xD;
+    efficiently.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Developing such models is done by iterations.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

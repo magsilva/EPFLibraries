@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-5xHoLfZa5sXxhjnW81VZbQ" name="new_toolmentor,_pJJuIOFSEdyhmsbt0Xyl8A" guid="-5xHoLfZa5sXxhjnW81VZbQ" changeDate="2008-09-25T20:15:29.474-0300" version="7.2.0">
+  <mainDescription>You may wish to leverage the Method Composer tool to improve the process by incorporating the lessons that have been
+successfully piloted in the project by enhancing templates, checklists, activities, steps, or introducing new practices and guidance.</mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

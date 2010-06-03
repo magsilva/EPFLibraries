@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore"
+    xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.2.0" xmlns:epf="http://www.eclipse.org/epf"
+    epf:version="1.2.0" xmi:id="_YIYIYMM1EdmSIPI87WLu3g"
+    name="design,_0XSzsMlgEdmt3adZL5Dmdw" guid="_YIYIYMM1EdmSIPI87WLu3g" changeDate="2006-09-15T12:28:43.942-0700"
+    version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    The items in this checklist represent good practices for creating and communicating a robust design. Try to address&#xD;
+    every item to the greatest extent possible to create the best design. It may not be possible to address every item, and&#xD;
+    some items may only be able to be addressed to a limited extent. In these cases, be sure that there are good reasons&#xD;
+    for only partially addressing an item, or not addressing an item at all.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Design can be performed every day. Use this checklist regularly to assure the design is robust, consistent, and&#xD;
+    understandable. Make the design good enough for the specific goals being addressed by using this checklist to identify&#xD;
+    areas that have been skipped, ignored, or not sufficiently addressed.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_cKSvsD6SEduAL-bCqar_dg" name="General" guid="_cKSvsD6SEduAL-bCqar_dg">
+    <sectionDescription>&lt;p>&#xD;
+    Do separate design elements have low coupling? Does each design element have high internal cohesion?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Does the design reflect the architectural objectives of the system?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Can the system be implemented from the information in the design? Has sufficient detail been included?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is the design consistent? Does any part of the design contradict another part of it in such a way that puts the project&#xD;
+    at risk?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is the design able to accommodate future changes?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is the design appropriate to the experience level of other team members and stakeholders, neither too simple nor too&#xD;
+    advanced?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is the design written in such a way, and is it structured well enough, so it can be maintained easily?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Does the design constrain the implementation only as much as is necessary?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Does the design describe all the behavior of the system for the requirements that are currently being addressed?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Can all parts of the design be traced back to the requirements? Can the requirements (for the current iteration) be&#xD;
+    traced to design elements?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is there an unambiguous place or places&amp;nbsp;in the design where each behavior exists?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Are the use case flows that are currently being addressed described in the design?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Are&amp;nbsp;complex flows outside the Basic Flow&amp;nbsp;addressed, including exceptional cases?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Has the behavior described in the requirements that are currently being addressed&amp;nbsp;been distributed to the correct&#xD;
+    design elements?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Does the design provide enough information for test design? For example, are the collaborations between design elements&#xD;
+    clear enough to create integration tests?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Have redundant areas of the design been removed so the Implementation does not contain redundant code?&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="__4O2AD6WEduAL-bCqar_dg" name="Organization and Clarity" guid="__4O2AD6WEduAL-bCqar_dg">
+    <sectionDescription>&lt;p>&#xD;
+    Does the design describe the system at the appropriate level of abstraction, given the objectives? This usually means&#xD;
+    the system is described at a number of different levels of&amp;nbsp;abstraction and perspectives.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Does the design use common vocabulary and terms from the business and technical domains?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Does the design describe the behavior of the elements unambiguously to the extent that developer tests can be created&#xD;
+    toverify the implementation?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Are the design's constructs, vocabulary, and semantics appropriate to the problem being solved? This usually means the&#xD;
+    customer's vocabulary is used, and elements of the design are referenced in a consistent manner.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is the design organized in a way that team members can easily find the information they're looking for?&#xD;
+&lt;/p>Is the notation used to&amp;nbsp;describe the design&amp;nbsp;used consistently?&lt;br />&#xD;
+&lt;p>&#xD;
+    Is the design organized in a way that helps team members modify it without contending for the same part of the design?&#xD;
+    That is, can mulitple people work on the design in parallel?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Are the names of elements within the design consistent and easy to interpret?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Does each design element represent a clearly defined abstraction?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is the design as simple as it can be while fulfilling the objectives of the design and giving sufficient direction to&#xD;
+    implementers?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is the design clear enough and contain enough detail so it can be implemented?&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_dahBcD6SEduAL-bCqar_dg" name="Architecture" guid="_dahBcD6SEduAL-bCqar_dg">
+    <sectionDescription>&lt;p>&#xD;
+    Is the architecture clearly called out in the design ? Can team members and stakeholders clearly identify the portion&#xD;
+    of the design that is the architecture?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Are architectural mechanisms (patterns) clearly defined in the design so they're reusable and understandable?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Are architectural mechanisms used appropriately? Are they applied in all applicable circumstances?&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_kWnQ4D6SEduAL-bCqar_dg" name="Subsystems" guid="_kWnQ4D6SEduAL-bCqar_dg">
+    <sectionDescription>&lt;p>&#xD;
+    Do all elements within a subsystem have private visibility? In other words, is the subsystem interface the&amp;nbsp;only&#xD;
+    way to access the behavior of elements inside the subsystem?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Is the interface for each subsystem clearly defined in the design?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Are the subsystem dependencies documented?&amp;nbsp;&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_2h6xAcrsEd2sX5aq6os4oQ" guid="_2h6xAcrsEd2sX5aq6os4oQ">
+    <resourceDescriptors xmi:id="_2h6xAsrsEd2sX5aq6os4oQ" id="-bUpJuAJ9G1gNUYahDjpPSw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_d9Oe8H9YEd26h9j0X6pKmw" name="deploy_business_rules" guid="_d9Oe8H9YEd26h9j0X6pKmw">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_fKYOkH9YEd26h9j0X6pKmw" name="deploy_rules" guid="_fKYOkH9YEd26h9j0X6pKmw" presentationName="Deploy Rules" briefDescription="Deploy rule set in the integrated core application" superActivities="_d9Oe8X9YEd26h9j0X6pKmw" mandatoryInput="_fKYOkX9YEd26h9j0X6pKmw" output="_fKYOkX9YEd26h9j0X6pKmw">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_AgQVAD5QEdyA6a_I80swHw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_fKYOkX9YEd26h9j0X6pKmw" name="ruleset" guid="_fKYOkX9YEd26h9j0X6pKmw" presentationName="Rule Set" briefDescription="Set of rule as a standalone component executed by a rule engine. " isPlanned="false" superActivities="_d9Oe8X9YEd26h9j0X6pKmw">
+      <methodElementProperty xmi:id="_duxD8VxiEd-Ffovxdlhmsw" name="descriptor_createdByReferebce" value="true"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_mqnOETmsEdy8N6BRpa8ByQ"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_vjWPcDzEEdyA6a_I80swHw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_fcstoH9YEd26h9j0X6pKmw" name="synchronize_with_wrms" guid="_fcstoH9YEd26h9j0X6pKmw" presentationName="Synchronize with Web-Based Rule Management System" superActivities="_d9Oe8X9YEd26h9j0X6pKmw" output="_fc2eoH9YEd26h9j0X6pKmw" performedPrimarilyBy="_fcstoX9YEd26h9j0X6pKmw _fcston9YEd26h9j0X6pKmw">
+      <methodElementProperty xmi:id="_duxrAFxiEd-Ffovxdlhmsw" name="descriptor_localUsingInfo" value="_fcstoX9YEd26h9j0X6pKmw/performedPrimarilyBy/_fcston9YEd26h9j0X6pKmw/performedPrimarilyBy"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_YkGwYFtsEdykEsBjRsVfZw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_fcstoX9YEd26h9j0X6pKmw" name="rule_writer" guid="_fcstoX9YEd26h9j0X6pKmw" presentationName="Rule Writer" briefDescription="The Rule Writer writes rules using an authoring environment." isPlanned="false" superActivities="_d9Oe8X9YEd26h9j0X6pKmw" modifies="_fc2eoH9YEd26h9j0X6pKmw">
+      <Role href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_XiII4wqBEdyPCr4G1Tb79A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_fcston9YEd26h9j0X6pKmw" name="rule_administrator" guid="_fcston9YEd26h9j0X6pKmw" presentationName="Rule Administrator" briefDescription="The Rule Administrator manages the rule authoring and deployment. He executes the business rule management process and ensure the integrity of the rule set by using the rule life cycle and rule set life cycle." isPlanned="false" superActivities="_d9Oe8X9YEd26h9j0X6pKmw" modifies="_fc2eoH9YEd26h9j0X6pKmw">
+      <Role href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_XiII4QqBEdyPCr4G1Tb79A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_fc2eoH9YEd26h9j0X6pKmw" name="rule_repository_in_db" guid="_fc2eoH9YEd26h9j0X6pKmw" presentationName="Rule Repository in DB" isPlanned="false" superActivities="_d9Oe8X9YEd26h9j0X6pKmw">
+      <methodElementProperty xmi:id="_duxrAVxiEd-Ffovxdlhmsw" name="descriptor_createdByReferebce" value="true"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_jqxtYFttEdykEsBjRsVfZw"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_d9Oe8X9YEd26h9j0X6pKmw" name="deploy_business_rules" guid="_d9Oe8X9YEd26h9j0X6pKmw" presentationName="Deploy Business Rules" breakdownElements="_fKYOkH9YEd26h9j0X6pKmw _fKYOkX9YEd26h9j0X6pKmw _fcstoH9YEd26h9j0X6pKmw _fcstoX9YEd26h9j0X6pKmw _fcston9YEd26h9j0X6pKmw _fc2eoH9YEd26h9j0X6pKmw">
+      <methodElementProperty xmi:id="_duxrAlxiEd-Ffovxdlhmsw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-bUpJuAJ9G1gNUYahDjpPSw" href="uma://-bUpJuAJ9G1gNUYahDjpPSw#-bUpJuAJ9G1gNUYahDjpPSw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

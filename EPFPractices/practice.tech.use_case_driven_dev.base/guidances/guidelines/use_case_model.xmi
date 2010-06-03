@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_AGvpcMM3EdmSIPI87WLu3g" name="uc_model,_0VAUsMlgEdmt3adZL5Dmdw" guid="_AGvpcMM3EdmSIPI87WLu3g" changeDate="2009-03-28T14:40:44.000-0300" version="1.0.0">
+  <mainDescription>&lt;h3>
+    Introduction
+&lt;/h3>
+&lt;p>
+    The key to successful iterative development is ensuring that the development team maximizes stakeholder value and
+    minimizes risk early in the lifecycle, while minimizing re-work later.&amp;nbsp; This imposes some constraints on how we
+    develop the use-case model.
+&lt;/p>
+&lt;p>
+    At one extreme is the classical waterfall approach, which attempts to&amp;nbsp;detail all of the requirements prior to
+    design and implementation.&amp;nbsp; This approach delays delivery of stakeholder value and risk reduction unnecessarily.
+&lt;/p>
+&lt;p>
+    At the other extreme is&amp;nbsp;beginning development prior to understanding what the system must do.&amp;nbsp; This approach
+    results in significant, and costly, re-work later in the lifecycle.
+&lt;/p>
+&lt;p>
+    A better approach is to detail only those requirements which will be the focus of development in the next iteration (or
+    two).&amp;nbsp; Selection of these requirements is driven by value and risk, and thus requires as a minimum an abstract
+    understanding of the &quot;big-picture&quot;.
+&lt;/p>
+&lt;p>
+    The following discussion will outline the approach used to evolve the use-case model to achieve these goals.
+&lt;/p>
+&lt;h3>
+    &lt;a id=&quot;How the Use-Case Model Evolves&quot; name=&quot;How the Use-Case Model Evolves&quot;>How the Use-Case Model Evolves&lt;/a>
+&lt;/h3>
+&lt;p>
+    The recommended approach to evolving the use-case model takes a &quot;breadth before depth&quot; approach.&amp;nbsp; In this
+    approach, one identifies the actors and use cases and outlines them quickly.&amp;nbsp; Based on this knowledge, one can
+    then perform an initial assessment of risk and priorities and thus focus the effort of&amp;nbsp;detailing&amp;nbsp;the use
+    cases on the right areas.
+&lt;/p>
+&lt;h4>
+    Inception
+&lt;/h4>
+&lt;p>
+    The purpose of inception is to understand the scope of the system.&amp;nbsp; We need to understand the main purpose of the
+    system, what is within the scope of the system, and what is external to the system.&amp;nbsp; We must strive to list all
+    the primary actors and use cases, however we don't have the luxury of being able to detail all of these requirements at
+    this time.&amp;nbsp; Strive to&amp;nbsp;identify by name&amp;nbsp;~80% of the primary actors and use cases and provide a brief
+    description (one - three sentences) for each.
+&lt;/p>
+&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+    &lt;h5>
+        Identify Stakeholders
+    &lt;/h5>
+    &lt;p>
+        Begin by listing all the external stakeholders for the system.&amp;nbsp; These individuals will be the source of the
+        requirements.
+    &lt;/p>
+    &lt;h5>
+        Identify Actors
+    &lt;/h5>
+    &lt;p>
+        Name and describe the primary actors.&amp;nbsp; See &lt;a class=&quot;elementLinkWithType&quot;
+        href=&quot;./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/identify_and_outline_actors_and_ucs_BB5516A9.html&quot;
+         guid=&quot;_eyL0wCu-EdqSxKAVa9kmvA&quot;>Guideline: Identify and Outline Actors and Use Cases&lt;/a>.
+    &lt;/p>
+    &lt;h5>
+        Identify Use Cases
+    &lt;/h5>
+    &lt;p>
+        For each actor, ask &quot;what does this actor want to accomplish with the system&quot;?&amp;nbsp; This will reveal the primary
+        use cases for the system.&amp;nbsp; Name and describe each of these as you discover them.
+    &lt;/p>
+    &lt;h5>
+        Update the Use-Case Model
+    &lt;/h5>
+    &lt;p>
+        Update the use case model to capture the actor and use case names and brief description.&amp;nbsp; Capture the
+        relationship between the actors and use cases.
+    &lt;/p>
+    &lt;h5>
+        Outline the Basic Flows
+    &lt;/h5>
+    &lt;p>
+        For those use cases that are considered high priority by the stakeholders, or high risk by the development team,
+        capture a step-by-step description of the Basic Flow.&amp;nbsp; Don't worry about structuring the flow at this
+        point.&amp;nbsp; Focus on capturing the dialogue between the actor and the system and the key requirements for the
+        system.
+    &lt;/p>
+    &lt;h5>
+        Identify Alternate Flows
+    &lt;/h5>
+    &lt;p>
+        As you work through the Basic Flows, ask: &quot;What can go wrong?&quot;; &quot;What options are available at this point?&quot;;
+        etc.&amp;nbsp; These types of questions will reveal alternate flows.&amp;nbsp; Capture these, giving each a name and brief
+        description.&amp;nbsp; Fight the urge to detail these alternate flows at this time.
+    &lt;/p>
+    &lt;h5>
+        Refactor the Use Case Model
+    &lt;/h5>
+    &lt;p>
+        Based on the Basic Flows you have identified, determine if there is common behavior that could be factored out into
+        &amp;lt;&amp;lt;include&amp;gt;&amp;gt; use cases.&amp;nbsp; Refactor the Use Case model accordingly.
+    &lt;/p>
+    &lt;h5>
+        Prioritize Use Cases
+    &lt;/h5>
+    &lt;p>
+        Given the abstract description you now have of the requirements, work with stakeholders to prioritize the use
+        cases.&amp;nbsp; This will be the primary input to iteration planning.
+    &lt;/p>
+&lt;/blockquote>
+&lt;h4>
+    Elaboration
+&lt;/h4>
+&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+    &lt;p>
+        The purpose of elaboration is to demonstrate the feasibility of&amp;nbsp;the solution prior to committing additional
+        resources.&amp;nbsp; To be successful, one must demonstrate that stakeholder value can be delivered and that the risk
+        of continuing is acceptable.&amp;nbsp; We must strive to detail and implement ~20% of the scenarios.&amp;nbsp; These
+        scenarios must be selected to achieve good coverage of the architecture (for example, a vertical slice through the
+        architecture, touching as many&amp;nbsp;components and interfaces as possible, is preferred to elaborating the GUI
+        only).
+    &lt;/p>
+    &lt;h5>
+        Detail Basic Flow
+    &lt;/h5>
+    &lt;p>
+        For those UC selected for the next iteration, spend the time to detail the basic flow now.&amp;nbsp; See &lt;a
+        class=&quot;elementLinkWithType&quot;
+        href=&quot;./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/detail_ucs_and_scenarios_6BC56BB7.html&quot;
+         guid=&quot;_4BJ_YCxSEdqjsdw1QLH_6Q&quot;>Guideline: Detail Use Cases and Scenarios&lt;/a>.
+    &lt;/p>
+    &lt;h5>
+        Detail Alternate Flow
+    &lt;/h5>
+    &lt;p>
+        For those alternate flows selected for the next iteration, spend the time to detail the flows now.
+    &lt;/p>
+    &lt;h5>
+        Update the Use-Case Model
+    &lt;/h5>
+    &lt;p>
+        Update the Use-Case Model to capture any refinements made as a result of your work.&amp;nbsp; Depending upon the
+        complexity of the system, you might want to introduce packages to group the use cases in a logical manner to
+        simplify communications, iteration planning, and parallel development.
+    &lt;/p>
+&lt;/blockquote>
+&lt;h4>
+    Construction
+&lt;/h4>
+&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
+    &lt;p>
+        The purpose of construction is to incrementally deliver functionality (and value).&amp;nbsp; Working from the iteration
+        plan, continue detailing the remaining requirements.&amp;nbsp; Shoot for completion of ~90 - ~95% of use cases by the
+        end of construction.
+    &lt;/p>
+    &lt;h5>
+        Detail Basic Flows
+    &lt;/h5>
+    &lt;p>
+        For those UC selected for the next iteration, spend the time to detail the basic flow now.&amp;nbsp; See &lt;a
+        class=&quot;elementLinkWithType&quot;
+        href=&quot;./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/detail_ucs_and_scenarios_6BC56BB7.html&quot;
+         guid=&quot;_4BJ_YCxSEdqjsdw1QLH_6Q&quot;>Guideline: Detail Use Cases and Scenarios&lt;/a>.
+    &lt;/p>
+    &lt;h5>
+        Detail Alternate Flows
+    &lt;/h5>
+    &lt;p>
+        For those alternate flows selected for the next iteration, spend the time to detail the flows now.
+    &lt;/p>
+    &lt;h5>
+        Update the Use-Case Model
+    &lt;/h5>
+    &lt;p>
+        Update the Use-Case Model to capture any refinements made as a result of your work.
+    &lt;/p>
+&lt;/blockquote>
+&lt;h4>
+    Transition
+&lt;/h4>
+&lt;p>
+    The purpose of transition is to make the system operational in its intended environment.&amp;nbsp; Some requirements will
+    not be covered at this point.&amp;nbsp; But the requirements must clearly not stress the design.&amp;nbsp; The remaining ~5% to
+    ~10% of use cases must be detailed and implemented in this phase.
+&lt;/p>
+&lt;h3>
+    &lt;a id=&quot;Avoiding Functional Decomposition&quot; name=&quot;Avoiding Functional Decomposition&quot;>Avoiding Functional
+    Decomposition&lt;/a>
+&lt;/h3>
+&lt;p>
+    A common pitfall for those new to use-case models is to perform a&amp;nbsp;functional decomposition of the system. This
+    results in many small &quot;use cases&quot;, that on their own do not deliver the &quot;observable result of value&quot; to the
+    actor.&amp;nbsp; To avoid this, watch for the following symptoms:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        &lt;strong>Small&lt;/strong> use cases, meaning that the description of the flow of events is only one or a few
+        sentences.
+    &lt;/li>
+    &lt;li>
+        &lt;strong>Many&lt;/strong> use cases, meaning that the number of use cases is some multiple of a hundred, rather than a
+        multiple of ten.
+    &lt;/li>
+    &lt;li>
+        Use-case names that are constructions such as &quot;do this operation on this particular data&quot; or &quot;do this function with
+        this particular data&quot;. For example, &quot;Enter Personal Identification Number in an ATM machine&quot; must not be modeled as
+        a separate use case for the ATM machine, because no one would use the system to do just this. A use case is a
+        complete flow of events that results in something of value to an actor.
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    To avoid functional decomposition, make sure that the use-case model helps answer these kinds of questions:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        What is the context of the system?
+    &lt;/li>
+    &lt;li>
+        Why are you building this system?
+    &lt;/li>
+    &lt;li>
+        What does the user want the system to do?
+    &lt;/li>
+    &lt;li>
+        How&amp;nbsp;do the users benefit from the system?
+    &lt;/li>
+&lt;/ul>
+&lt;h3>
+    &lt;a id=&quot;Structuring the Use-Case Model&quot; name=&quot;Structuring the Use-Case Model&quot;>Structuring the Use-Case Model&lt;/a>
+&lt;/h3>
+&lt;p>
+    There are three main reasons for structuring the use-case model:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        To make the use cases easier to understand.
+    &lt;/li>
+    &lt;li>
+        To partition common behavior described within many use cases
+    &lt;/li>
+    &lt;li>
+        To make the use-case model easier to maintain.
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    Structuring is not the first thing you do, however. There is no point in structuring the use cases until you know a bit
+    more about their behavior than a one-sentence description. Establishing a step-by-step outline of the flow of events
+    can assure your decisions are based on an accurate understanding of the behavior
+&lt;/p>
+&lt;p>
+    There are several advanced modeling concepts available in the literature for&amp;nbsp;structuring the use-case model,
+    however, following the principle of &quot;keep-it-simple&quot; only the most useful of these, namely the &amp;lt;&amp;lt;include&amp;gt;&amp;gt;
+    relationship is discussed in this process.&amp;nbsp; This relationship permits one to factor out common behavior into a
+    separate use case that is &quot;include&quot; in other use cases.&amp;nbsp; See &lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/use_case_model_CD178AF9.html&quot;
+    guid=&quot;_2jyfUAhVEduRe8TeoBmuGg&quot;>Concept: Use-Case Model&lt;/a>&amp;nbsp;for more&amp;nbsp;details.
+&lt;/p>
+&lt;p>
+    Another aspect of&amp;nbsp;structuring the use-case model for easier understanding is grouping the use cases into packages.
+    The use-case model can be organized as a hierarchy of use-case packages. For more information on use-case packages, see
+    &lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/use_case_model_CD178AF9.html&quot;
+    guid=&quot;_2jyfUAhVEduRe8TeoBmuGg&quot;>Concept: Use-Case Model&lt;/a>.
+&lt;/p>
+&lt;h3>
+    &lt;a id=&quot;Use Cases Are Always Related to Actors&quot; name=&quot;Use Cases Are Always Related to Actors&quot;>Relationship Between Use
+    Cases and Actors&lt;/a>
+&lt;/h3>
+&lt;p>
+    Running each use case includes communication with one or more actors. A use-case instance is always started by an actor
+    asking the system to do something. This implies that every use case must have communicates-associations with actors.
+    The reason for this rule is to enforce that the system provides only the functionality that users need and nothing
+    else. Having use cases that no one requests is an indication that something is wrong in the use-case model or in the
+    requirements.
+&lt;/p>
+&lt;p>
+    However, there are some exceptions to this rule:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        An&amp;nbsp;&quot;included&quot; use case might not interact with an actor if the base use case does.
+    &lt;/li>
+    &lt;li>
+        A use case can be initiated according to a schedule (for example, once a week or once a day), which means that the
+        system clock is the initiator. The system clock is internal to the system; therefore, the use case is not initiated
+        by an actor but by an internal system event. If no other actor interaction occurs in the use case, it will not have
+        any associations to actors. However, for clarity, you can use &quot;time&quot; as an actor to show how the use case is
+        initiated in your use-case diagrams. &lt;strong>CAUTION:&lt;/strong> if you have a lot of &quot;time&quot; actors in your model,
+        challenge them.&amp;nbsp; Perhaps you missed a real actor, such as an administrator responsible for scheduling reports,
+        etc.
+    &lt;/li>
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

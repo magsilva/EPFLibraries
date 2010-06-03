@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-i5J2T1z4y0Y1dFcHm78XXg" name="requirements_discipline,_iGSHtVZ-EdyIUdvDLLUdeg" guid="-i5J2T1z4y0Y1dFcHm78XXg" changeDate="2008-06-17T22:08:12.420-0300" version="7.2.0">
+  <mainDescription>&lt;p> The purpose of this discipline is to: &lt;/p>&#xD;
+&lt;ul>&#xD;
+  &lt;li> Understand the problem to be solved &lt;/li>&#xD;
+  &lt;li> Understand stakeholder needs (what users want) &lt;/li>&#xD;
+  &lt;li> Define the requirements for the solution (what the system must do) &lt;/li>&#xD;
+  &lt;li> Define the boundaries (scope) of the system &lt;/li>&#xD;
+  &lt;li> Identify external interfaces for the system &lt;/li>&#xD;
+  &lt;li> Identify technical constraints on the solution &lt;/li>&#xD;
+  &lt;li> Provide the basis for planning iterations &lt;/li>&#xD;
+  &lt;li> Provide the initial basis for estimating cost and schedule &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p> To achieve these goals, it is important to understand the definition and scope &#xD;
+  of the problem that you are trying to solve. Identify &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.default.role_def.base/roles/stakeholder_9FFD4106.html&quot; guid=&quot;_dTa6gMAYEdqX-s4mWhkyqQ&quot;>Stakeholders&lt;/a> &#xD;
+  and define the problem to be solved. Having agreed on the problem to be solved, &#xD;
+  the &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/requirements_8006414F.html&quot; guid=&quot;_0Wh-sMlgEdmt3adZL5Dmdw&quot;>Requirements&lt;/a> &#xD;
+  for the system are elicited, organized, analyzed, validated, and specified. &#xD;
+&lt;/p>&#xD;
+&lt;p> Throughout the lifecycle, you manage changes to the requirements.The Requirements &#xD;
+  discipline is related to the other disciplines in the following ways: &lt;/p>&#xD;
+&lt;ul>&#xD;
+  &lt;li> The &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.default.cat_def.base/disciplines/architecture_discipline_3A224435.html&quot; guid=&quot;_iGSHsFZ-EdyIUdvDLLUdeg&quot;>Architecture&lt;/a> &#xD;
+    and &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.default.cat_def.base/disciplines/development_discipline_44C02445.html&quot; guid=&quot;_iGSHsVZ-EdyIUdvDLLUdeg&quot;>Development&lt;/a>&amp;nbsp;disciplines &#xD;
+    get&amp;nbsp;their primary input from the Requirements discipline. &lt;/li>&#xD;
+  &lt;li> The &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.default.cat_def.base/disciplines/test_discipline_F7EB1A7A.html&quot; guid=&quot;_iGSHtlZ-EdyIUdvDLLUdeg&quot;>Test&lt;/a> &#xD;
+    discipline validates the system against the requirements. &lt;/li>&#xD;
+  &lt;li> The &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.default.cat_def.base/disciplines/project_management_discipline_FEB42654.html&quot; guid=&quot;_iGSHtFZ-EdyIUdvDLLUdeg&quot;>Project Management&lt;/a>&amp;nbsp;discipline plans the project and assigns requirements &#xD;
+    to each iteration by analyzing the prioritized requirements and assigning &#xD;
+    work. &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

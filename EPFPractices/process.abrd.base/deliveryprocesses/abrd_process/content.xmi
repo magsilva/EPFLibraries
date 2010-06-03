@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-Nbe8Rdqjq4lgoQ95Y0ot9g" name="discovery,_40DokXqkEd2o_5d3MWaNxQ" guid="-Nbe8Rdqjq4lgoQ95Y0ot9g"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-4RpjINOc4rCESRAYiXaR1w" name="analyze,_qx-1wX9WEd26h9j0X6pKmw" guid="-4RpjINOc4rCESRAYiXaR1w"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-GhJfLtRP5ADWO_NtIImqUw" name="discovery,_40DokXqkEd2o_5d3MWaNxQ" guid="-GhJfLtRP5ADWO_NtIImqUw"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-wWls41lEy2zA_NkxhOnoDg" name="analyze,_qx-1wX9WEd26h9j0X6pKmw" guid="-wWls41lEy2zA_NkxhOnoDg"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-hpPbI7yoU4KI3IBgzkYMOw" name="authoring,_OQxnAX_CEd2YWI_0AZcMOA" guid="-hpPbI7yoU4KI3IBgzkYMOw"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-Vy5EjgkTkzCMhrts0Aczlg" name="design,_4NT9AX9XEd26h9j0X6pKmw" guid="-Vy5EjgkTkzCMhrts0Aczlg"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-qptRZHxVnbhlR7Ycjbxb9A" name="architecture,_2_QBQX_BEd2YWI_0AZcMOA" guid="-qptRZHxVnbhlR7Ycjbxb9A"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-I6NaNeD6vtJcfSCfyJ2e1Q" name="analyze,_qx-1wX9WEd26h9j0X6pKmw" guid="-I6NaNeD6vtJcfSCfyJ2e1Q"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-8tHTcrgK1fmquEli5euXbQ" name="authoring,_OQxnAX_CEd2YWI_0AZcMOA" guid="-8tHTcrgK1fmquEli5euXbQ"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-zxa-baDc1KSYzHLYLZLONQ" name="discovery,_40DokXqkEd2o_5d3MWaNxQ" guid="-zxa-baDc1KSYzHLYLZLONQ"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-4WeilgakCQbS1xQ7a54XEg" name="validation,_oh_7EY5HEd21UNSm_M0-kg" guid="-4WeilgakCQbS1xQ7a54XEg"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-iDrjgGg0EofrciITbayiaA" name="design,_4NT9AX9XEd26h9j0X6pKmw" guid="-iDrjgGg0EofrciITbayiaA"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-CDhw1ZKfzw57sjOszDxNXQ" name="deployment,_d9Oe8X9YEd26h9j0X6pKmw" guid="-CDhw1ZKfzw57sjOszDxNXQ"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-z_SeD1bFowOQJTPCHYGiHw" name="analyze,_qx-1wX9WEd26h9j0X6pKmw" guid="-z_SeD1bFowOQJTPCHYGiHw"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-XW78i_C7h9zp23v7_4FynQ" name="authoring,_OQxnAX_CEd2YWI_0AZcMOA" guid="-XW78i_C7h9zp23v7_4FynQ"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-UobSWGrKBmEhg8A39R5yLg" name="deployment,_d9Oe8X9YEd26h9j0X6pKmw" guid="-UobSWGrKBmEhg8A39R5yLg"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-MdbP5cTReRekciw_VZz3vQ" name="design,_4NT9AX9XEd26h9j0X6pKmw" guid="-MdbP5cTReRekciw_VZz3vQ"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-TxDZIG3zJyyBuiVvCyxaNQ" name="discovery,_40DokXqkEd2o_5d3MWaNxQ" guid="-TxDZIG3zJyyBuiVvCyxaNQ"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-fxBunH2zP8bxL0NEj54ptA" name="validation,_oh_7EY5HEd21UNSm_M0-kg" guid="-fxBunH2zP8bxL0NEj54ptA"/>
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-Ui61NyVqm4OfNM8QodL5rQ" name="abrd_process,_2EcLMXqlEd2o_5d3MWaNxQ" guid="-Ui61NyVqm4OfNM8QodL5rQ">
+    <mainDescription>Agile Business Rule Development main process</mainDescription>
+    <purpose>Develop a business application&amp;nbsp;using a business rule and an agile iterative development approaches.</purpose>
+  </org.eclipse.epf.uma:DeliveryProcessDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-Nbe8Rdqjq4lgoQ95Y0ot9g" name="discovery,_40DokXqkEd2o_5d3MWaNxQ" guid="-Nbe8Rdqjq4lgoQ95Y0ot9g"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-4RpjINOc4rCESRAYiXaR1w" name="analyze,_qx-1wX9WEd26h9j0X6pKmw" guid="-4RpjINOc4rCESRAYiXaR1w"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-GhJfLtRP5ADWO_NtIImqUw" name="discovery,_40DokXqkEd2o_5d3MWaNxQ" guid="-GhJfLtRP5ADWO_NtIImqUw"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-wWls41lEy2zA_NkxhOnoDg" name="analyze,_qx-1wX9WEd26h9j0X6pKmw" guid="-wWls41lEy2zA_NkxhOnoDg"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-Vy5EjgkTkzCMhrts0Aczlg" name="design,_4NT9AX9XEd26h9j0X6pKmw" guid="-Vy5EjgkTkzCMhrts0Aczlg"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-hpPbI7yoU4KI3IBgzkYMOw" name="authoring,_OQxnAX_CEd2YWI_0AZcMOA" guid="-hpPbI7yoU4KI3IBgzkYMOw"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-qptRZHxVnbhlR7Ycjbxb9A" name="architecture,_2_QBQX_BEd2YWI_0AZcMOA" guid="-qptRZHxVnbhlR7Ycjbxb9A"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-zxa-baDc1KSYzHLYLZLONQ" name="discovery,_40DokXqkEd2o_5d3MWaNxQ" guid="-zxa-baDc1KSYzHLYLZLONQ"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-I6NaNeD6vtJcfSCfyJ2e1Q" name="analyze,_qx-1wX9WEd26h9j0X6pKmw" guid="-I6NaNeD6vtJcfSCfyJ2e1Q"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-iDrjgGg0EofrciITbayiaA" name="design,_4NT9AX9XEd26h9j0X6pKmw" guid="-iDrjgGg0EofrciITbayiaA"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-8tHTcrgK1fmquEli5euXbQ" name="authoring,_OQxnAX_CEd2YWI_0AZcMOA" guid="-8tHTcrgK1fmquEli5euXbQ"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-4WeilgakCQbS1xQ7a54XEg" name="validation,_oh_7EY5HEd21UNSm_M0-kg" guid="-4WeilgakCQbS1xQ7a54XEg"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-CDhw1ZKfzw57sjOszDxNXQ" name="deployment,_d9Oe8X9YEd26h9j0X6pKmw" guid="-CDhw1ZKfzw57sjOszDxNXQ"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-TxDZIG3zJyyBuiVvCyxaNQ" name="discovery,_40DokXqkEd2o_5d3MWaNxQ" guid="-TxDZIG3zJyyBuiVvCyxaNQ"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-z_SeD1bFowOQJTPCHYGiHw" name="analyze,_qx-1wX9WEd26h9j0X6pKmw" guid="-z_SeD1bFowOQJTPCHYGiHw"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-MdbP5cTReRekciw_VZz3vQ" name="design,_4NT9AX9XEd26h9j0X6pKmw" guid="-MdbP5cTReRekciw_VZz3vQ"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-XW78i_C7h9zp23v7_4FynQ" name="authoring,_OQxnAX_CEd2YWI_0AZcMOA" guid="-XW78i_C7h9zp23v7_4FynQ"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-fxBunH2zP8bxL0NEj54ptA" name="validation,_oh_7EY5HEd21UNSm_M0-kg" guid="-fxBunH2zP8bxL0NEj54ptA"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-UobSWGrKBmEhg8A39R5yLg" name="deployment,_d9Oe8X9YEd26h9j0X6pKmw" guid="-UobSWGrKBmEhg8A39R5yLg"/>
+</xmi:XMI>

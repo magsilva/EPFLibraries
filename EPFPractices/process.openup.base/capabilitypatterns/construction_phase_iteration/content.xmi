@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-pszgT2UQY1AzlzJLFM1S5g" name="construction_phase_iteration,_RQi0AdONEdyqlogshP8l4g" guid="-pszgT2UQY1AzlzJLFM1S5g" version="7.2.0">
+    <mainDescription>&lt;p>&#xD;
+    The architecture should be stable when the Construction phase starts, allowing the remaining requirements to be&#xD;
+    implemented on top of it. Another advantage of validating the architecture and eliminating as many risks as possible&#xD;
+    during Elaboration is that it provides more predictability in Construction, which allows the project manager to focus&#xD;
+    on team efficiency and cost reduction.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Functionality is continuously implemented, tested, and integrated, resulting in builds that are more and more complete&#xD;
+    and stable. You may deploy a beta or prerelease to a sampling of the intended audience at the end of Construction.&#xD;
+    Delivery of the actual release is the main focus of the next phase.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The following table summarizes the&amp;nbsp;Construction phase objectives and&amp;nbsp;what activities address each objective:&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;center&quot;>&#xD;
+    &lt;strong>Construction phase objectives and activities&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;648&quot; align=&quot;center&quot; border=&quot;1&quot;>&#xD;
+    &lt;tbody>&#xD;
+        &lt;tr>&#xD;
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot;>&#xD;
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>&#xD;
+                    &lt;b>Phase objectives&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>&#xD;
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>&#xD;
+                    &lt;b>Activities that address objectives&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot;>&#xD;
+                Iteratively develop a complete product that is ready to transition to the user community&lt;br />&#xD;
+            &lt;/td>&#xD;
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>&#xD;
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>&#xD;
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/identify_and_refine_requirements_7FA6CB14.html&quot; guid=&quot;_xxcpgdOEEdyqlogshP8l4g&quot;>Identify and Refine Requirements&lt;/a>&#xD;
+                &lt;/p>&#xD;
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>&#xD;
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/develop_solution_4FBB0E6E.html&quot; guid=&quot;_RXGoodOFEdyqlogshP8l4g&quot;>Develop Solution Increment&lt;/a>&#xD;
+                &lt;/p>&#xD;
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>&#xD;
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/test_solution_D16D88FC.html&quot; guid=&quot;_buG4sdOFEdyqlogshP8l4g&quot;>Test Solution&lt;/a>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot;>&#xD;
+                Minimize development costs and achieve some degree of parallelism&lt;br />&#xD;
+            &lt;/td>&#xD;
+            &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>&#xD;
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>&#xD;
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/plan_manage_iteration_F9713A62.html&quot; guid=&quot;_oZgCsdOEEdyqlogshP8l4g&quot;>Plan and Manage Iteration&lt;/a>&lt;br />&#xD;
+                &lt;/p>&#xD;
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>&#xD;
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/develop_solution_4FBB0E6E.html&quot; guid=&quot;_RXGoodOFEdyqlogshP8l4g&quot;>Develop Solution Increment&lt;/a>&#xD;
+                &lt;/p>&#xD;
+                &lt;p style=&quot;TEXT-ALIGN: justify&quot;>&#xD;
+                    &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/test_solution_D16D88FC.html&quot; guid=&quot;_buG4sdOFEdyqlogshP8l4g&quot;>Test Solution&lt;/a>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+    &lt;/tbody>&#xD;
+&lt;/table></mainDescription>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-2VY1Jl_Sw2Mmk8IfX0ONNw" name="identify_and_refine_requirements,_xxcpgdOEEdyqlogshP8l4g" guid="-2VY1Jl_Sw2Mmk8IfX0ONNw" version="7.2.0"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-2VY1Jl_Sw2Mmk8IfX0ONNw" name="identify_and_refine_requirements,_xxcpgdOEEdyqlogshP8l4g" guid="-2VY1Jl_Sw2Mmk8IfX0ONNw" version="7.2.0"/>
+</xmi:XMI>

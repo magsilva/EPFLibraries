@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-J2_dBqOPRwbukM0MbrxpRg" name="develop_rules,_Y2CxEDzEEdyA6a_I80swHw" guid="-J2_dBqOPRwbukM0MbrxpRg" changeDate="2007-08-28T03:07:50.527-0300">
+  <mainDescription>&lt;a id=&quot;XE_rule__develop&quot; name=&quot;XE_rule__develop&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Programming using rule forces to know how a rule engine is working. This is not a complicated skill, but the usage of&#xD;
+    the concepts of asserting, retracting fact and modifying fact are important to know. It is recommended to read what is&#xD;
+    a &lt;a class=&quot;elementLink&quot; href=&quot;./../../abrd/guidances/termdefinitions/rule_engine_A66B71B3.html&quot;&#xD;
+    guid=&quot;_QQcSoEXXEdy14e5PT9v3HQ&quot;>rule engine&lt;/a>&amp;nbsp;to get those concepts.&#xD;
+&lt;/p>&lt;br /></mainDescription>
+  <sections xmi:id="_bsPp8ErtEdyEE-k1R6LmOA" name="Develop Business Rules" guid="_bsPp8ErtEdyEE-k1R6LmOA">
+    <sectionDescription>Using template or not, the rule writer write the rule as described during the rule discovery and analysis.</sectionDescription>
+  </sections>
+  <sections xmi:id="_qfzk4ErtEdyEE-k1R6LmOA" name="Develop Decision Tables" guid="_qfzk4ErtEdyEE-k1R6LmOA">
+    <sectionDescription>See also &lt;a class=&quot;elementLink&quot; href=&quot;./../../agile_rule/guidances/termdefinitions/decision_table_57A218C1.html&quot;&#xD;
+guid=&quot;_iDLJcBCaEdyJtJ3PbfdVDw&quot;>Decision Table&lt;/a></sectionDescription>
+  </sections>
+  <sections xmi:id="_tdNKIErtEdyEE-k1R6LmOA" name="Develop Decision Tree" guid="_tdNKIErtEdyEE-k1R6LmOA">
+    <sectionDescription>See &lt;a class=&quot;elementLink&quot; href=&quot;./../../agile_rule/guidances/termdefinitions/decision_tree_D98E94D4.html&quot;&#xD;
+guid=&quot;_dVXOsEbNEdySHMdInS9eGA&quot;>Decision Tree&lt;/a></sectionDescription>
+  </sections>
+  <sections xmi:id="_zAvrMErtEdyEE-k1R6LmOA" name="Develop Technical Rules" guid="_zAvrMErtEdyEE-k1R6LmOA">
+    <sectionDescription>Technical rules are not exposed to the business user, but are needed for rule execution efficiency. Part of this categories&#xD;
+are rules that loop on a collection and assert all the object in the working memory. Technical rules leverage the full&#xD;
+power of the rule language and the programming language</sectionDescription>
+  </sections>
+  <sections xmi:id="_GvK9oEruEdyEE-k1R6LmOA" name="Develop external helper functions" guid="_GvK9oEruEdyEE-k1R6LmOA">
+    <sectionDescription>To improve performance, or accessibility or to simplify rule writing, it may make sense to implement some reusable logic&#xD;
+in&amp;nbsp;helper classes and methods instead of rules. Example of such methods are logger of trace, or sorting policies, or&#xD;
+delegate the call&amp;nbsp;to more complex reusable services.</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

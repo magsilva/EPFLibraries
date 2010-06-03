@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.0/notation"
+    xmlns:org.eclipse.epf.diagram.model="http://www.eclipse.org/epf/diagram/1.0.0/diagram.ecore"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore">
+  <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_vr8KMCs-Edy1v79I_OKHWw"
+      autoLayout="true">
+    <linkedElement xmi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_l7N3ACs-Edy1v79I_OKHWw#_l7N3ASs-Edy1v79I_OKHWw"/>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:RoleTaskComposite" xmi:id="_vwjkcCs-Edy1v79I_OKHWw">
+      <linkedElement xmi:type="org.eclipse.epf.uma:RoleDescriptor" href="uma://_l7N3ACs-Edy1v79I_OKHWw#_ug-y8Ss-Edy1v79I_OKHWw"/>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:RoleNode" xmi:id="_vwjkcSs-Edy1v79I_OKHWw"
+          name="Any Role">
+        <linkedElement xmi:type="org.eclipse.epf.uma:RoleDescriptor" href="uma://_l7N3ACs-Edy1v79I_OKHWw#_ug-y8Ss-Edy1v79I_OKHWw"/>
+      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:TaskNode" xmi:id="_vwjkcis-Edy1v79I_OKHWw"
+          name="Request Change" index="0">
+        <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_l7N3ACs-Edy1v79I_OKHWw#_ug-y8Cs-Edy1v79I_OKHWw"/>
+        <outgoingConnections xmi:type="org.eclipse.epf.diagram.model:Link" xmi:id="_vwjkdSs-Edy1v79I_OKHWw"
+            target="_vwjkcys-Edy1v79I_OKHWw"/>
+      </nodes>
+    </nodes>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductComposite" xmi:id="_vwjkcys-Edy1v79I_OKHWw"
+        incomingConnections="_vwjkdSs-Edy1v79I_OKHWw" type="2">
+      <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_l7N3ACs-Edy1v79I_OKHWw#_ug-y8Cs-Edy1v79I_OKHWw"/>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_vwjkdCs-Edy1v79I_OKHWw"
+          name="Work Items List">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_l7N3ACs-Edy1v79I_OKHWw#_ug-y8is-Edy1v79I_OKHWw"/>
+      </nodes>
+    </nodes>
+  </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
+  <notation:Diagram xmi:id="_vr8KMSs-Edy1v79I_OKHWw" type="ADD" element="_vr8KMCs-Edy1v79I_OKHWw"
+      name="dsdm_ongoing_tasks" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_vwjkdis-Edy1v79I_OKHWw" type="1001"
+        element="_vwjkcCs-Edy1v79I_OKHWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_vwjkdys-Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_vwjkeCs-Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_vwjkeSs-Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_vwjkeis-Edy1v79I_OKHWw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vwjkeys-Edy1v79I_OKHWw"
+          x="30" y="1" width="190" height="60"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_vwjkfCs-Edy1v79I_OKHWw" type="1002"
+        element="_vwjkcys-Edy1v79I_OKHWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_vwjkfSs-Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_vwjkfis-Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_vwjkfys-Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_vwjkgCs-Edy1v79I_OKHWw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vwjkgSs-Edy1v79I_OKHWw"
+          x="112" y="81" width="70" height="81"/>
+    </children>
+    <styles xmi:type="notation:PageStyle" xmi:id="_vr8KMis-Edy1v79I_OKHWw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_vr8KMys-Edy1v79I_OKHWw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_vr8KNCs-Edy1v79I_OKHWw"/>
+  </notation:Diagram>
+</xmi:XMI>

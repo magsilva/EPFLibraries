@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-HPCdXGOQ2SGSCHZaDEKJRg" name="implementation,_0YoQcMlgEdmt3adZL5Dmdw" guid="-HPCdXGOQ2SGSCHZaDEKJRg" authors="Jim Ruehlin" changeDate="2008-08-14T13:13:19.523-0300" version="1.0.0">
+  <mainDescription>&lt;p> &#xD;
+   This artifact is the collection of one or more of these elements: &lt;/p> &lt;ul>&#xD;
+&lt;li>         Source code files     &lt;/li>&#xD;
+&lt;li>         Data files     &lt;/li>&#xD;
+&lt;li>         Build scripts     &lt;/li>&#xD;
+&lt;li>         Other files that are transformed into the executable system &#xD;
+   &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <purpose>&lt;p>To&#xD;
+represent the physical parts that compose the system to be built, and to organize&#xD;
+the parts in a way that is understandable and manageable. &lt;/p></purpose>
+  <impactOfNotHaving>Without&#xD;
+this artifact, there is no way to produce the application to&#xD;
+be delivered as part of the solution.</impactOfNotHaving>
+  <reasonsForNotNeeding>You&#xD;
+do not need to produce this artifact if the actual development of an application&#xD;
+is not in the scope of the solution.</reasonsForNotNeeding>
+  <representationOptions>&lt;p&#xD;
+>Implementation files are represented as files in the local file system. File&#xD;
+folders (directories) are represented as packages, which group the files into&#xD;
+logical units. &lt;/p></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

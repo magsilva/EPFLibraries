@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.0/notation"
+    xmlns:org.eclipse.epf.diagram.model="http://www.eclipse.org/epf/diagram/1.0.0/diagram.ecore"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore">
+  <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_qV6LkCs8Edy1v79I_OKHWw"
+      autoLayout="true">
+    <linkedElement xmi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5DlnzEdug9t_2UE7UhQ"/>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:RoleTaskComposite" xmi:id="_qbICwCs8Edy1v79I_OKHWw">
+      <linkedElement xmi:type="org.eclipse.epf.uma:RoleDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5ClnzEdug9t_2UE7UhQ"/>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:RoleNode" xmi:id="_qbICwSs8Edy1v79I_OKHWw"
+          name="Project Manager">
+        <linkedElement xmi:type="org.eclipse.epf.uma:RoleDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5ClnzEdug9t_2UE7UhQ"/>
+      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:TaskNode" xmi:id="_qbICwis8Edy1v79I_OKHWw"
+          incomingConnections="_qbIC4Cs8Edy1v79I_OKHWw" name="Plan Iteration" index="0">
+        <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5CVnzEdug9t_2UE7UhQ"/>
+        <outgoingConnections xmi:type="org.eclipse.epf.diagram.model:Link" xmi:id="_qbRMsCs8Edy1v79I_OKHWw"
+            target="_qbICxys8Edy1v79I_OKHWw"/>
+      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:TaskNode" xmi:id="_qbICwys8Edy1v79I_OKHWw"
+          incomingConnections="_qbRMsSs8Edy1v79I_OKHWw" name="Manage Iteration" index="1">
+        <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5FFnzEdug9t_2UE7UhQ"/>
+        <outgoingConnections xmi:type="org.eclipse.epf.diagram.model:Link" xmi:id="_qbRMsis8Edy1v79I_OKHWw"
+            target="_qbIC0Cs8Edy1v79I_OKHWw"/>
+      </nodes>
+    </nodes>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductComposite" xmi:id="_qbICxCs8Edy1v79I_OKHWw"
+        type="1">
+      <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5CVnzEdug9t_2UE7UhQ"/>
+      <outgoingConnections xmi:type="org.eclipse.epf.diagram.model:Link" xmi:id="_qbIC4Cs8Edy1v79I_OKHWw"
+          target="_qbICwis8Edy1v79I_OKHWw"/>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbICxSs8Edy1v79I_OKHWw"
+          name="Project Plan">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5ElnzEdug9t_2UE7UhQ"/>
+      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbICxis8Edy1v79I_OKHWw"
+          name="Work Items List">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5DFnzEdug9t_2UE7UhQ"/>
+      </nodes>
+    </nodes>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductComposite" xmi:id="_qbICxys8Edy1v79I_OKHWw"
+        incomingConnections="_qbRMsCs8Edy1v79I_OKHWw" type="2">
+      <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5CVnzEdug9t_2UE7UhQ"/>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbICyCs8Edy1v79I_OKHWw"
+          name="Iteration Plan">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5EFnzEdug9t_2UE7UhQ"/>
+      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbICySs8Edy1v79I_OKHWw"
+          name="Work Items List">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5DFnzEdug9t_2UE7UhQ"/>
+      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbICyis8Edy1v79I_OKHWw"
+          name="Risk List">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5E1nzEdug9t_2UE7UhQ"/>
+      </nodes>
+    </nodes>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductComposite" xmi:id="_qbICyys8Edy1v79I_OKHWw"
+        type="1">
+      <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5FFnzEdug9t_2UE7UhQ"/>
+      <outgoingConnections xmi:type="org.eclipse.epf.diagram.model:Link" xmi:id="_qbRMsSs8Edy1v79I_OKHWw"
+          target="_qbICwys8Edy1v79I_OKHWw"/>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbICzCs8Edy1v79I_OKHWw"
+          name="Iteration Plan">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5EFnzEdug9t_2UE7UhQ"/>
+      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbICzSs8Edy1v79I_OKHWw"
+          name="Project Plan">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5ElnzEdug9t_2UE7UhQ"/>
+      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbICzis8Edy1v79I_OKHWw"
+          name="Work Items List">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5DFnzEdug9t_2UE7UhQ"/>
+      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbICzys8Edy1v79I_OKHWw"
+          name="Risk List">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5E1nzEdug9t_2UE7UhQ"/>
+      </nodes>
+    </nodes>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductComposite" xmi:id="_qbIC0Cs8Edy1v79I_OKHWw"
+        incomingConnections="_qbRMsis8Edy1v79I_OKHWw" type="2">
+      <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5FFnzEdug9t_2UE7UhQ"/>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbIC0Ss8Edy1v79I_OKHWw"
+          name="Iteration Plan">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5EFnzEdug9t_2UE7UhQ"/>
+      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbIC0is8Edy1v79I_OKHWw"
+          name="Project Plan">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5ElnzEdug9t_2UE7UhQ"/>
+      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbIC0ys8Edy1v79I_OKHWw"
+          name="Work Items List">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5DFnzEdug9t_2UE7UhQ"/>
+      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbIC1Cs8Edy1v79I_OKHWw"
+          name="Risk List">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5E1nzEdug9t_2UE7UhQ"/>
+      </nodes>
+    </nodes>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:RoleTaskComposite" xmi:id="_qbIC1Ss8Edy1v79I_OKHWw">
+      <linkedElement xmi:type="org.eclipse.epf.uma:RoleDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_XRzYgVn2Edug9t_2UE7UhQ"/>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:RoleNode" xmi:id="_qbIC1is8Edy1v79I_OKHWw"
+          name="Ambassador User">
+        <linkedElement xmi:type="org.eclipse.epf.uma:RoleDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_XRzYgVn2Edug9t_2UE7UhQ"/>
+      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:TaskNode" xmi:id="_qbIC1ys8Edy1v79I_OKHWw"
+          incomingConnections="_qbRMsys8Edy1v79I_OKHWw" name="Assess Results" index="0">
+        <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5GVnzEdug9t_2UE7UhQ"/>
+        <outgoingConnections xmi:type="org.eclipse.epf.diagram.model:Link" xmi:id="_qbRMtCs8Edy1v79I_OKHWw"
+            target="_qbIC3Cs8Edy1v79I_OKHWw"/>
+      </nodes>
+    </nodes>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductComposite" xmi:id="_qbIC2Cs8Edy1v79I_OKHWw"
+        type="1">
+      <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5GVnzEdug9t_2UE7UhQ"/>
+      <outgoingConnections xmi:type="org.eclipse.epf.diagram.model:Link" xmi:id="_qbRMsys8Edy1v79I_OKHWw"
+          target="_qbIC1ys8Edy1v79I_OKHWw"/>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbIC2Ss8Edy1v79I_OKHWw"
+          name="Iteration Plan">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5EFnzEdug9t_2UE7UhQ"/>
+      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbIC2is8Edy1v79I_OKHWw"
+          name="Project Plan">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5ElnzEdug9t_2UE7UhQ"/>
+      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbIC2ys8Edy1v79I_OKHWw"
+          name="Work Items List">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5DFnzEdug9t_2UE7UhQ"/>
+      </nodes>
+    </nodes>
+    <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductComposite" xmi:id="_qbIC3Cs8Edy1v79I_OKHWw"
+        incomingConnections="_qbRMtCs8Edy1v79I_OKHWw" type="2">
+      <linkedElement xmi:type="org.eclipse.epf.uma:TaskDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5GVnzEdug9t_2UE7UhQ"/>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbIC3Ss8Edy1v79I_OKHWw"
+          name="Work Items List">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5DFnzEdug9t_2UE7UhQ"/>
+      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbIC3is8Edy1v79I_OKHWw"
+          name="Project Plan">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5ElnzEdug9t_2UE7UhQ"/>
+      </nodes>
+      <nodes xmi:type="org.eclipse.epf.diagram.model:WorkProductDescriptorNode" xmi:id="_qbIC3ys8Edy1v79I_OKHWw"
+          name="Iteration Plan">
+        <linkedElement xmi:type="org.eclipse.epf.uma:WorkProductDescriptor" href="uma://_fQX5CFnzEdug9t_2UE7UhQ#_fQX5EFnzEdug9t_2UE7UhQ"/>
+      </nodes>
+    </nodes>
+  </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
+  <notation:Diagram xmi:id="_qV6LkSs8Edy1v79I_OKHWw" type="ADD" element="_qV6LkCs8Edy1v79I_OKHWw"
+      name="dsdm_plan_manage_iteration" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_qbRMtSs8Edy1v79I_OKHWw" type="1001"
+        element="_qbICwCs8Edy1v79I_OKHWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_qbRMtis8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_qbRMtys8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_qbRMuCs8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_qbRMuSs8Edy1v79I_OKHWw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qbRMuis8Edy1v79I_OKHWw"
+          x="30" y="258" width="314" height="60"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_qbRMuys8Edy1v79I_OKHWw" type="1002"
+        element="_qbICxCs8Edy1v79I_OKHWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_qbRMvCs8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_qbRMvSs8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_qbRMvis8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_qbRMvys8Edy1v79I_OKHWw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qbRMwCs8Edy1v79I_OKHWw"
+          x="136" y="105" width="70" height="133"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_qbRMwSs8Edy1v79I_OKHWw" type="1002"
+        element="_qbICxys8Edy1v79I_OKHWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_qbRMwis8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_qbRMwys8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_qbRMxCs8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_qbRMxSs8Edy1v79I_OKHWw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qbRMxis8Edy1v79I_OKHWw"
+          x="136" y="338" width="71" height="185"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_qbRMxys8Edy1v79I_OKHWw" type="1002"
+        element="_qbICyys8Edy1v79I_OKHWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_qbRMyCs8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_qbRMySs8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_qbRMyis8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_qbRMyys8Edy1v79I_OKHWw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qbRMzCs8Edy1v79I_OKHWw"
+          x="229" y="1" width="71" height="237"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_qbRMzSs8Edy1v79I_OKHWw" type="1002"
+        element="_qbIC0Cs8Edy1v79I_OKHWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_qbRMzis8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_qbRMzys8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_qbRM0Cs8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_qbRM0Ss8Edy1v79I_OKHWw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qbRM0is8Edy1v79I_OKHWw"
+          x="229" y="338" width="71" height="237"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_qbRM0ys8Edy1v79I_OKHWw" type="1001"
+        element="_qbIC1Ss8Edy1v79I_OKHWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_qbRM1Cs8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_qbRM1Ss8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_qbRM1is8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_qbRM1ys8Edy1v79I_OKHWw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qbRM2Cs8Edy1v79I_OKHWw"
+          x="30" y="821" width="231" height="60"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_qbRM2Ss8Edy1v79I_OKHWw" type="1002"
+        element="_qbIC2Cs8Edy1v79I_OKHWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_qbRM2is8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_qbRM2ys8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_qbRM3Cs8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_qbRM3Ss8Edy1v79I_OKHWw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qbRM3is8Edy1v79I_OKHWw"
+          x="154" y="616" width="71" height="185"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_qbRM3ys8Edy1v79I_OKHWw" type="1002"
+        element="_qbIC3Cs8Edy1v79I_OKHWw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_qbRM4Cs8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_qbRM4Ss8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_qbRM4is8Edy1v79I_OKHWw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_qbRM4ys8Edy1v79I_OKHWw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qbRM5Cs8Edy1v79I_OKHWw"
+          x="154" y="901" width="71" height="185"/>
+    </children>
+    <styles xmi:type="notation:PageStyle" xmi:id="_qV6Lkis8Edy1v79I_OKHWw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_qV6Lkys8Edy1v79I_OKHWw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_qV6LlCs8Edy1v79I_OKHWw"/>
+  </notation:Diagram>
+</xmi:XMI>

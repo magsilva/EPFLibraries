@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-aoCtIwigi2NOLiclMAXvgQ" name="new_guideline,_KzYHYMLmEdysDsQChI42QQ" guid="-aoCtIwigi2NOLiclMAXvgQ" changeDate="2008-06-18T16:04:51.312-0300" version="7.2.0">
+  <mainDescription>&lt;p> &lt;i>Sustainable pace &lt;/i>is the rate of work that a team can consistently maintain &#xD;
+  without burning out team members. This concept was popularized by the Extreme &#xD;
+  Programming (XP) methodology with its 40-hour work week practice, which later &#xD;
+  evolved into the more generic &quot;sustainable pace.&quot;&amp;nbsp;The basic idea is that, &#xD;
+  although a team can have brief spurts of overtime (perhaps for a week or two&amp;nbsp;at &#xD;
+  a time during critical periods during a project lifecycle), it cannot maintain &#xD;
+  that pace indefinitely.&amp;nbsp;This is analogous to the concept that you cannot &#xD;
+  sprint throughout a marathon. &lt;/p>&#xD;
+&lt;p>&#xD;
+    Strategies to help maintain a sustainable pace:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+  &lt;li>&lt;strong>Build activities into everyday work&lt;/strong>.&amp;nbsp;This avoids the &#xD;
+    problem that the activity is scheduled into a specific period and, therefore, &#xD;
+    must&amp;nbsp;be accomplished regardless of how much effort it requires. For example, &#xD;
+    instead of leaving testing to the end of a project, test all the way through &#xD;
+    the project.&amp;nbsp;Instead of modeling only at the beginning of a project, &#xD;
+    model all the way through only when you need the relevant information and &#xD;
+    only to the extent that you currently need.&amp;nbsp;&amp;nbsp; &lt;/li>&#xD;
+  &lt;li>&lt;strong>Organize the project into short iterations&lt;/strong>.&amp;nbsp;Short &#xD;
+    iterations provide the opportunity for small &quot;pebbles&quot; (which show progress) &#xD;
+    rather than huge &quot;milestones.&quot;&amp;nbsp;Continuous feedback reduces the&amp;nbsp;need&amp;nbsp;to &#xD;
+    work long hours. Also,&amp;nbsp;it helps focus on finding ways to consistently &#xD;
+    achieve the regular deliveries. &lt;/li>&#xD;
+  &lt;li>&lt;strong>Adopt a continuous integration strategy&lt;/strong>.&amp;nbsp;By frequently &#xD;
+    merging code, compiling it, testing it, and running appropriate code analysis &#xD;
+    against it, you increase the quality of your work through finding and then &#xD;
+    fixing defects quickly and easily.&amp;nbsp;This reduces the chance of major problems &#xD;
+    in your work, thereby reducing a primary motivator of unexpected overtime.&amp;nbsp; &#xD;
+  &lt;/li>&#xD;
+  &lt;li>&lt;strong>Question long hours&lt;/strong>.&amp;nbsp;Productivity does not increase &#xD;
+    with hours worked.&amp;nbsp;Tired people are far&amp;nbsp;less productive than well-rested &#xD;
+    ones. &lt;/li>&#xD;
+  &lt;li>&lt;strong>Recognize sustained overtime as a failure&lt;/strong>.&amp;nbsp;If a team &#xD;
+    needs to work overtime for more than&amp;nbsp;two weeks in a row, that is a reflection &#xD;
+    of poor planning or&amp;nbsp;inadequate resources allocation.&amp;nbsp; &lt;/li>&#xD;
+  &lt;li>&lt;strong>Recognize that you're still working hard at a sustainable pace&lt;/strong>.&amp;nbsp;Just &#xD;
+    because you are working at a sustainable pace, it&amp;nbsp;doesn't mean that the &#xD;
+    team is not working hard enough. Rather, it is&amp;nbsp;typically an indication &#xD;
+    that&amp;nbsp;the team is&amp;nbsp;a &quot;well-oiled machine.&amp;quot;&lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

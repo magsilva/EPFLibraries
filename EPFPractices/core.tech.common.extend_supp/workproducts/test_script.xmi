@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_NqYIcqeqEdmKDbQuyzCoqQ" name="test_script,_0ZfMEMlgEdmt3adZL5Dmdw" guid="_NqYIcqeqEdmKDbQuyzCoqQ" changeDate="2008-08-15T16:55:57.437-0300" version="7.2.0">
+  <purpose>&lt;p> &#xD;
+   Test scripts implement a subset of required tests in an efficient and effective&#xD;
+manner. &lt;/p></purpose>
+  <impactOfNotHaving>Without&#xD;
+this artifact, it is difficult to ensure that tests are run consistently so&#xD;
+that results are repeatable and errors can be recreated. If you do not use&#xD;
+a test script, it is more difficult to verify that errors were not caused&#xD;
+because of the way tests were run.</impactOfNotHaving>
+  <reasonsForNotNeeding>&lt;p&#xD;
+>This artifact might not be required if the tests are simple or if testing&#xD;
+is done on an informal basis. However, for this approach to be successful,&#xD;
+testers must track their processes, as they might need to recreate a problem&#xD;
+scenario. Alternatively, you can use automatic capture and playback tools&#xD;
+to provide a record of testing. &lt;/p></reasonsForNotNeeding>
+</org.eclipse.epf.uma:ArtifactDescription>

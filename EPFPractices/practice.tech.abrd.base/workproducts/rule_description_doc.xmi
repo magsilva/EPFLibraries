@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-UEBifbGrsPKtO4mHXnV4eQ" name="rule_description_doc,_B39KUBwiEdup07cQ6G-1HA" guid="-UEBifbGrsPKtO4mHXnV4eQ" authors="Jerome Boyer" changeDate="2008-09-05T14:03:25.760-0300" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_rule_description__document&quot; name=&quot;XE_rule_description__document&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The rule description document is used during the discovery phase, and during the first iterations for building a rule&#xD;
+    set. It is not mandatory to complete it up front with all the rules in it. The complement is done during the Rule&#xD;
+    Authoring phase.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is also interesting to leverage SBVR to document the rule.&#xD;
+&lt;/p></mainDescription>
+  <purpose>&lt;p>&#xD;
+    Describe&amp;nbsp;using the term of the business the rules under scope. Also used to&amp;nbsp;define some&amp;nbsp;meta data&#xD;
+    attached to the rule.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

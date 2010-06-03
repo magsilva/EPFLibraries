@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_JrUowSfbEdyUdMkzl9_UtA" guid="_JrUowSfbEdyUdMkzl9_UtA">
+    <subManagers xmi:id="_nHk9MPL5Edm6Nvont3uinw" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_nHk9MPL5Edm6Nvont3uinw"/>
+    <subManagers xmi:id="_nIcf4fL5Edm6Nvont3uinw" href="uma://_WCUhAO8KEdmKSqa_gSYthg#_nIcf4fL5Edm6Nvont3uinw"/>
+    <subManagers xmi:id="_NedTwGWqEduXS5SsNQFBeg" href="uma://_Nq0WYFkVEdul8L-IGeA7TA#_NedTwGWqEduXS5SsNQFBeg"/>
+    <resourceDescriptors xmi:id="_JrUowifbEdyUdMkzl9_UtA" id="_JrUowCfbEdyUdMkzl9_UtA" uri=""/>
+    <resourceDescriptors xmi:id="_MuYKECfbEdyUdMkzl9_UtA" id="_0TLvwMlgEdmt3adZL5Dmdw" uri="openup_basic/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_Mu02cSfbEdyUdMkzl9_UtA" id="_WCUhAO8KEdmKSqa_gSYthg" uri="base_concepts/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_7k8HtifbEdyUdMkzl9_UtA" id="_Nq0WYFkVEdul8L-IGeA7TA" uri="dsdm_openup/plugin.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodLibrary xmi:id="_JrUowCfbEdyUdMkzl9_UtA" name="openup_dsdm_20070701" guid="_JrUowCfbEdyUdMkzl9_UtA">
+    <methodElementProperty xmi:id="_QrKRdlxnEd-Ffovxdlhmsw" value="0"/>
+    <methodElementProperty xmi:id="_QrKRd1xnEd-Ffovxdlhmsw" value="_0TLvwMlgEdmt3adZL5Dmdw"/>
+    <methodElementProperty xmi:id="_QrKReFxnEd-Ffovxdlhmsw" value="openup_basic"/>
+    <methodElementProperty xmi:id="_QrKReVxnEd-Ffovxdlhmsw" value="_WCUhAO8KEdmKSqa_gSYthg"/>
+    <methodElementProperty xmi:id="_QrKRelxnEd-Ffovxdlhmsw" value="base_concepts"/>
+    <methodElementProperty xmi:id="_QrKRe1xnEd-Ffovxdlhmsw" value="_Nq0WYFkVEdul8L-IGeA7TA"/>
+    <methodElementProperty xmi:id="_QrKRfFxnEd-Ffovxdlhmsw" value="dsdm_openup"/>
+    <methodElementProperty xmi:id="_QywuQlxnEd-Ffovxdlhmsw" name="library_synFree" value="true"/>
+    <methodPlugins xmi:id="_Nq0WYFkVEdul8L-IGeA7TA" href="uma://_Nq0WYFkVEdul8L-IGeA7TA#_Nq0WYFkVEdul8L-IGeA7TA"/>
+  </org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>

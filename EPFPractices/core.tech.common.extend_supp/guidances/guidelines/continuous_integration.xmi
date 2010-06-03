@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0" xmlns:rmc="http://www.ibm.com/rmc"
+    rmc:version="7.2.0" xmi:id="-DlaqJu4sEqMPk84qhJ6IEA"
+    name="continuous_integration,_i8bUEL6cEdqti4GwqTkbsQ" guid="-DlaqJu4sEqMPk84qhJ6IEA"
+    changeDate="2006-05-31T06:26:30.000-0400" version="7.2.0">
+  <mainDescription>&lt;p>
+    Continuous integration is a software development practice that completely rebuilds and tests the application frequently
+    -- ideally, every time a change is introduced. This approach provides many benefits as outlined in &lt;a
+    class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.tech.slot.base/guidances/concepts/continuous_integration_87682D06.html&quot;
+    guid=&quot;_B3xkEPD0EdqYgerqi84oCA&quot;>Concept: Continuous Integration&lt;/a> and in &lt;a class=&quot;elementLinkWithUserText&quot;
+    href=&quot;./../../../core.tech.common.base/guidances/supportingmaterials/references_6CCF393.html#WIKP-CI&quot;
+    guid=&quot;_9ToeIB83Edqsvps02rpOOg&quot;>[WIKP-CI]&lt;/a>.
+&lt;/p>
+&lt;h1>
+    Basic steps
+&lt;/h1>
+&lt;p>
+    The detailed application of continuous integration depends on which tools you use (configuration management system,
+    automated build tool, automated test tool, and so forth). However, these are the basic steps:
+&lt;/p>
+&lt;ol>
+    &lt;li>
+        A developer, let's call her Jane, selects a&amp;nbsp;work item&amp;nbsp;to work on.
+    &lt;/li>
+    &lt;li>
+        Jane updates her &lt;a class=&quot;elementLink&quot;
+        href=&quot;./../../../opn.swd.prac.legacy_pm/guidances/concepts/workspace_722BBA90.html&quot;
+        guid=&quot;_0cEmAMlgEdmt3adZL5Dmdw&quot;>Workspace&lt;/a> to include the most recent &lt;a class=&quot;elementLink&quot;
+        href=&quot;./../../../opn.swd.prac.legacy_impl/workproducts/implementation_917CA61E.html&quot;
+        guid=&quot;_0YoQcMlgEdmt3adZL5Dmdw&quot;>Implementation&lt;/a> from the integration workspace.
+    &lt;/li>
+    &lt;li>
+        Jane makes her changes in her workspace to both her developer tests and to the implementation, and then she tests
+        the changes.
+    &lt;/li>
+    &lt;li>
+        Before committing the changes, Jane updates her workspace again (because other developers may have introduced
+        conflicting changes) and reruns her developer tests.
+    &lt;/li>
+    &lt;li>
+        If these tests are successful, the changes are promoted (see &lt;a class=&quot;elementLinkWithType&quot;
+        href=&quot;./../../../core.tech.slot.base/guidances/guidelines/promoting_changes_9087B764.html&quot;
+        guid=&quot;_SM4YIL6dEdqti4GwqTkbsQ&quot;>Guideline: Promoting Builds&lt;/a>) to&amp;nbsp;the&amp;nbsp;integration workspace.
+    &lt;/li>
+    &lt;li>
+        A complete &lt;a class=&quot;elementLink&quot;
+        href=&quot;./../../../opn.swd.prac.legacy_impl/workproducts/build_95D7D8FD.html&quot;
+        guid=&quot;_0YuXEMlgEdmt3adZL5Dmdw&quot;>Build&lt;/a> of the application is performed by using the implementation from the
+        integration workspace, and the entire suite of developer tests is run on this build.
+    &lt;/li>
+    &lt;li>
+        If any of these tests fail, the team is notified, and the failed test should be addressed as soon as possible.
+    &lt;/li>
+    &lt;li>
+        This process repeats as the team develops and continuously integrates and tests functionality in small increments.
+    &lt;/li>
+&lt;/ol>
+&lt;h1>
+    Constraints
+&lt;/h1>
+&lt;p>
+    Conceptually, continuous integration can be performed manually (see &lt;a class=&quot;elementLinkWithUserText&quot;
+    href=&quot;./../../../core.tech.common.base/guidances/supportingmaterials/references_6CCF393.html#SHO06&quot;
+    guid=&quot;_9ToeIB83Edqsvps02rpOOg&quot;>[SHO06]&lt;/a> for example). However, in practice, there are several constraints that must
+    be respected for it to be effective:
+&lt;/p>
+&lt;ol>
+    &lt;li>
+        All changes must be introduced into a tested configuration that you know to be good.
+    &lt;/li>
+    &lt;li>
+        The integrate-build-test cycle must be fast enough so that it can be completed quickly and the team notified of the
+        results. Many published guidelines promote a 10-minute cycle.
+    &lt;/li>
+    &lt;li>
+        Keep the &lt;a class=&quot;elementLink&quot;
+        href=&quot;./../../../opn.swd.prac.legacy_pm/guidances/concepts/change_set_430BF233.html&quot;
+        guid=&quot;_1QU9MAIoEdyLh7vsrHZ4YA&quot;>Change Set&lt;/a>s&amp;nbsp;small enough so that the work can be completed and integration
+        performed several times per day. Many published guidelines promote a 2- to 4-hour cycle between integrations.
+    &lt;/li>
+&lt;/ol>
+&lt;p>
+    These constraints imply the need for a configuration management (CM) repository to maintain configuration information
+    (Item 1 listed previously), automated build and test tools to meet the turnaround constraints (Item 2), and proper
+    planning and discipline by developers to ensure that their work items and change sets are small enough to complete
+    quickly (Item 3).
+&lt;/p>
+&lt;p>
+    For a more detailed description of continuous integration, see &lt;a class=&quot;elementLinkWithUserText&quot;
+    href=&quot;./../../../core.tech.common.base/guidances/supportingmaterials/references_6CCF393.html#FOW06&quot;
+    guid=&quot;_9ToeIB83Edqsvps02rpOOg&quot;>[FOW06]&lt;/a> or &lt;a class=&quot;elementLinkWithUserText&quot;
+    href=&quot;./../../../core.tech.common.base/guidances/supportingmaterials/references_6CCF393.html#WIKP-CI&quot;
+    guid=&quot;_9ToeIB83Edqsvps02rpOOg&quot;>[WIKP-CI]&lt;/a>.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

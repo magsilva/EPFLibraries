@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Zk3FS_C8qvv163lF--6ZTA" name="rule_authoring,_qO63gBDJEdyJtJ3PbfdVDw" guid="-Zk3FS_C8qvv163lF--6ZTA" changeDate="2007-08-23T15:55:28.538-0300">
+  <mainDescription>&lt;a id=&quot;XE_rule_authoring&quot; name=&quot;XE_rule_authoring&quot;>&lt;/a> &#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>&#xD;
+    The goal of this activity is to&amp;nbsp;build the rule set at a level useful to validate the integration with the core&#xD;
+    business application. The process is simple and includes recurring tasks as outlined by the following process map&#xD;
+&lt;/p>&lt;br class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot; />&#xD;
+&lt;br />&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>&#xD;
+    &lt;img style=&quot;WIDTH: 691px; HEIGHT: 328px&quot; height=&quot;308&quot; alt=&quot;&quot; src=&quot;resources/authoring.bmp&quot; width=&quot;600&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm&quot;>&#xD;
+    The tasks are&#xD;
+&lt;/p>&#xD;
+&lt;ul style=&quot;MARGIN-TOP: 0cm&quot; type=&quot;disc&quot;>&#xD;
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>&#xD;
+        Defining what is a rule set&#xD;
+    &lt;/li>&#xD;
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>&#xD;
+        Put in place an continuous integrated build process which can extract a rule set and execute the suite of tests on&#xD;
+        it automatically.&#xD;
+    &lt;/li>&#xD;
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>&#xD;
+        Develop unit tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>&#xD;
+        Develop rules&#xD;
+    &lt;/li>&#xD;
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>&#xD;
+        Execute rules&#xD;
+    &lt;/li>&#xD;
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>&#xD;
+        Enhance the object models&#xD;
+    &lt;/li>&#xD;
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>&#xD;
+        Log issues&#xD;
+    &lt;/li>&#xD;
+    &lt;li class=&quot;MsoNormal&quot; style=&quot;MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>&#xD;
+        Persist the repository in change control&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

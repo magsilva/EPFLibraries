@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-cTx4XxpRYKBXhRKY3yHlUw" name="decision_tree,_K_ttwCC8EduGAdKOTiDQdQ" guid="-cTx4XxpRYKBXhRKY3yHlUw" authors="Jerome Boyer" changeDate="2008-09-03T19:55:12.390-0300" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_decision_tree&quot; name=&quot;XE_decision_tree&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>Tree&#xD;
+    view for a set of business rules, where a rule is represented by a path through the tree.&amp;nbsp;Decision trees&amp;nbsp;are&#xD;
+    composed of branches that have a condition node as their root, and end with actions.&amp;nbsp;Decision trees allow you to&#xD;
+    manage a large set of rules with some conditions in common but not all.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The following figure is a decision tree for a which test if the age of the borrower is above 18, if so if the loan&#xD;
+    grade ia A,B or C.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    &lt;img height=&quot;280&quot; alt=&quot;&quot; src=&quot;resources/dtree_intro.png&quot; width=&quot;700&quot; />&lt;br />&#xD;
+    &lt;br />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

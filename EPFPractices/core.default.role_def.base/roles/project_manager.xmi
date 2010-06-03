@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_Fdq-8KX4EdmvhNXG0Oc2uA" name="project_manager,_0a0o0MlgEdmt3adZL5Dmdw" guid="_Fdq-8KX4EdmvhNXG0Oc2uA" changeDate="2008-10-14T18:20:12.095-0300" version="1.0.0">
+  <mainDescription>&lt;p> The person in this role: &lt;/p>&#xD;
+&lt;ul>&#xD;
+    &#xD;
+  &lt;li> Coaches the team to drive a successful outcome of the project and the acceptance &#xD;
+    of the product by the customer&lt;/li>&#xD;
+  &lt;li> Is accountable for the outcome of the project and the acceptance of the &#xD;
+    product by the customer&lt;/li>&#xD;
+    &#xD;
+  &lt;li> Is responsible for the evaluation of project's risks and for controlling &#xD;
+    those risks through mitigation strategies&lt;/li>&#xD;
+    &#xD;
+  &lt;li> Applies management knowledge, skills, tools, and techniques to a broad &#xD;
+    range of tasks to deliver&amp;nbsp;the desired&amp;nbsp;result for a particular project &#xD;
+    in a timely manner&lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <skills>&lt;p>&#xD;
+    A person performing this role needs the following skills:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &#xD;
+  &lt;li> Leadership and team-building capabilities&lt;/li>&#xD;
+    &#xD;
+  &lt;li> Thorough experience in the software development lifecycle to coach, guide, &#xD;
+    and support other team members&lt;/li>&#xD;
+    &#xD;
+  &lt;li> Proficiency in conflict resolution and problem-solving techniques&lt;/li>&#xD;
+    &#xD;
+  &lt;li> Good skills in presentation, facilitation, communication, and negotiation&lt;/li>&#xD;
+&lt;/ul></skills>
+  <assignmentApproaches>&lt;p>&#xD;
+    This role is often played by a single person. It is difficult to have this role shared by multiple people, but it might&#xD;
+    not use all of a person's available time.&lt;br />&#xD;
+&lt;/p></assignmentApproaches>
+</org.eclipse.epf.uma:RoleDescription>

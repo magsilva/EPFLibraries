@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-OsXLwf_NhIR9VN9cXEsxzw" name="business_process_map,_zdusEEh5EduhlaS50FcVjA" guid="-OsXLwf_NhIR9VN9cXEsxzw" authors="Jerome Boyer" changeDate="2008-09-05T14:06:51.809-0300" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_business_process_map&quot; name=&quot;XE_business_process_map&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    A Business Process is a collection of interrelated tasks, which solve a particular business problem or process a&#xD;
+    business event: a claim is received and needs to be processed within 15 days.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A business process can be decomposed into several sub-processes, which have their own attributes, but also contribute&#xD;
+    to achieving the goal of the super-process.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The following process map is done using BPMN 1.0 and illustrates a loan underwriting process. The entry point is a mail&#xD;
+    with the loan application received, then the process follow a set of activities to decide if the loan is elligible and&#xD;
+    what kind of loan product we can offer to the borrower and at what financial condition. This process as decribed here&#xD;
+    is not taking into account the actors of the process. Swim lanes can be added&amp;nbsp;to group tasks per actors.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;600&quot; alt=&quot;&quot; src=&quot;resources/LoanApplicationBPM.bmp&quot; width=&quot;357&quot; />&lt;br />&#xD;
+    &lt;br />&#xD;
+    &amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+  <purpose>Describes the set of business processes under scope</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

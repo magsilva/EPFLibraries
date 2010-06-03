@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_KdJuQNOFEdyqlogshP8l4g" guid="_KdJuQNOFEdyqlogshP8l4g">
+    <resourceDescriptors xmi:id="_KdJuQdOFEdyqlogshP8l4g" id="-VFp5B68iro5ga1pz4nbQFw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_KaeNsNOFEdyqlogshP8l4g" name="develop_architecture" guid="_KaeNsNOFEdyqlogshP8l4g">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_TV_k8NOKEdyqlogshP8l4g" name="develop_solution" guid="_TV_k8NOKEdyqlogshP8l4g">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_TV_k8dOKEdyqlogshP8l4g" name="develop_solution" guid="_TV_k8dOKEdyqlogshP8l4g" superActivities="_KaeNsdOFEdyqlogshP8l4g" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_RXGooNOFEdyqlogshP8l4g#_RXGoodOFEdyqlogshP8l4g"/>
+      </processElements>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_Ei9OcdOKEdyqlogshP8l4g" name="architect" guid="_Ei9OcdOKEdyqlogshP8l4g" presentationName="Architect" briefDescription="The Architect is responsible for defining the software architecture, which includes making the key technical decisions that constrain the overall design and implementation of the system." isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g" modifies="_EjG_cNOKEdyqlogshP8l4g" responsibleFor="_EjG_cNOKEdyqlogshP8l4g">
+      <methodElementProperty xmi:id="_drSSIFxiEd-Ffovxdlhmsw" name="descriptor_createdByReferebce" value="true"/>
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0X9iEMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_EjG_cNOKEdyqlogshP8l4g" name="architecture_notebook" guid="_EjG_cNOKEdyqlogshP8l4g" presentationName="Architecture Notebook" briefDescription="This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture." isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
+      <methodElementProperty xmi:id="_drQc8FxiEd-Ffovxdlhmsw" name="descriptor_createdByReferebce" value="true"/>
+      <checklists href="uma://_4gaS4LPREduocbW-TPTq7A#_17PYUNd6EdmIm-bsRSNCgw"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#__O7tAMVvEduLYZUGfgZrkQ"/>
+      <guidelines href="uma://_4gaS4LPREduocbW-TPTq7A#_HrgUQNcuEdy1nJEYZGzN4A"/>
+      <templates href="uma://_4gaS4LPREduocbW-TPTq7A#_me8WcAANEdyRS9uciXlZ6g"/>
+      <WorkProduct href="uma://_4gaS4LPREduocbW-TPTq7A#_0XAf0MlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6RuKMN_1EdyOsumnGvWsEg" name="refine_the_arch" guid="_6RuKMN_1EdyOsumnGvWsEg" presentationName="Refine the Architecture" briefDescription="Refine the architecture to an appropriate level of detail to support development." superActivities="_KaeNsdOFEdyqlogshP8l4g" additionallyPerformedBy="_6RuKMd_1EdyOsumnGvWsEg _6RuKMt_1EdyOsumnGvWsEg" mandatoryInput="_6R37MN_1EdyOsumnGvWsEg _EjG_cNOKEdyqlogshP8l4g" optionalInput="_6R37Md_1EdyOsumnGvWsEg _6R37Mt_1EdyOsumnGvWsEg" output="_EjG_cNOKEdyqlogshP8l4g" performedPrimarilyBy="_Ei9OcdOKEdyqlogshP8l4g">
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_mzxI0A4LEduibvKwrGxWxA"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_HrZGIA4MEduibvKwrGxWxA"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_O1kAANvfEduv2KOT-Teh6w"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_HlRqANpbEdyP58ppo1Ieaw"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_pLEGUNqGEdy88NBoQgfGyg"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_0YP18MlgEdmt3adZL5Dmdw"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_jdKSsNpiEdyP58ppo1Ieaw"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_vO2uoO0OEduUpsu85bVhiQ"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0gjdYMlgEdmt3adZL5Dmdw"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_we3F4ACpEdu8m4dIntu6jA"/>
+      <guidelines href="uma://_4gaS4LPREduocbW-TPTq7A#_HrgUQNcuEdy1nJEYZGzN4A"/>
+      <Task href="uma://_4gaS4LPREduocbW-TPTq7A#_0gRJgMlgEdmt3adZL5Dmdw"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_l92AYNpaEdyP58ppo1Ieaw"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_G_k1kBaqEduSTJywppIxVQ"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_0qoQ8CikEduQBKSg5n118w"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_82iI0FHOEd2zrOgIte8oWg"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_Vdln8MP3EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_GFLpsFHPEd2zrOgIte8oWg"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_xIIVkMUbEdu5GrwIlTJV7g"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_pyyVoFHPEd2zrOgIte8oWg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_6RuKMd_1EdyOsumnGvWsEg" name="developer" guid="_6RuKMd_1EdyOsumnGvWsEg" presentationName="Developer" briefDescription="The Developer is responsible for developing a part of the system, including designing it to fit into the architecture, possibly prototyping the user interface, and then implementing, unit-testing, and integrating the components that are part of the solution." isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
+      <methodElementProperty xmi:id="_drUHUFxiEd-Ffovxdlhmsw" name="descriptor_createdByReferebce" value="true"/>
+      <guidelines href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_Jq64EJjsEduad8I_c-ogIA"/>
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0YDosMlgEdmt3adZL5Dmdw"/>
+      <responsibleForExclude href="uma://_OOB2AAouEdyhlpBPrduOMw#_0YuXEMlgEdmt3adZL5Dmdw"/>
+      <responsibleForExclude href="uma://_Z2cK0LPPEduocbW-TPTq7A#_0WuL8slgEdmt3adZL5Dmdw"/>
+      <responsibleForExclude href="uma://_OOB2AAouEdyhlpBPrduOMw#_kh9FcJ02EdyQ3oTO93enUw"/>
+      <responsibleForExclude href="uma://_OOB2AAouEdyhlpBPrduOMw#_JqYbgJ01EdyQ3oTO93enUw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_6RuKMt_1EdyOsumnGvWsEg" name="project_manager" guid="_6RuKMt_1EdyOsumnGvWsEg" presentationName="Project Manager" briefDescription="The Project Manager leads the planning of the project, coordinates interactions with the Stakeholders, and keeps the project team focused on meeting the project objectives." isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
+      <methodElementProperty xmi:id="_drUHUVxiEd-Ffovxdlhmsw" name="descriptor_createdByReferebce" value="true"/>
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0a0o0MlgEdmt3adZL5Dmdw"/>
+      <responsibleForExclude href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_0aQBEslgEdmt3adZL5Dmdw"/>
+      <responsibleForExclude href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
+      <responsibleForExclude href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
+      <responsibleForExclude href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_0a6vcMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6R37MN_1EdyOsumnGvWsEg" name="technical_specification_slot" guid="_6R37MN_1EdyOsumnGvWsEg" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
+      <methodElementProperty xmi:id="_drUuYFxiEd-Ffovxdlhmsw" name="descriptor_createdByReferebce" value="true"/>
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6R37Md_1EdyOsumnGvWsEg" name="software_design_slot" guid="_6R37Md_1EdyOsumnGvWsEg" presentationName="[Software Design]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe the realization of required system functionality, and serves as an abstraction of the solution." isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
+      <methodElementProperty xmi:id="_drVVcFxiEd-Ffovxdlhmsw" name="descriptor_createdByReferebce" value="true"/>
+      <methodElementProperty xmi:id="_draN8FxiEd-Ffovxdlhmsw" name="descriptor_customization" value="3"/>
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_IcQOUEqdEdyi3_jfs__bIQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6R37Mt_1EdyOsumnGvWsEg" name="software_implementation_slot" guid="_6R37Mt_1EdyOsumnGvWsEg" presentationName="[Software Implementation]" briefDescription="This slot holds the artifacts that represent a technical implementation.  This can include source code, executable code, data, and software/hardware configurations." isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
+      <methodElementProperty xmi:id="_drVVcVxiEd-Ffovxdlhmsw" name="descriptor_createdByReferebce" value="true"/>
+      <methodElementProperty xmi:id="_drZm4FxiEd-Ffovxdlhmsw" name="descriptor_customization" value="3"/>
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_Vux8UEfUEdyiPI8btkmvmw"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_KaeNsdOFEdyqlogshP8l4g" name="develop_architecture" guid="_KaeNsdOFEdyqlogshP8l4g" presentationName="Develop the Architecture" briefDescription="Develop the architecturally significant requirements prioritized for this iteration." breakdownElements="_Ei9OcdOKEdyqlogshP8l4g _EjG_cNOKEdyqlogshP8l4g _TV_k8dOKEdyqlogshP8l4g _6RuKMN_1EdyOsumnGvWsEg _6RuKMd_1EdyOsumnGvWsEg _6RuKMt_1EdyOsumnGvWsEg _6R37MN_1EdyOsumnGvWsEg _6R37Md_1EdyOsumnGvWsEg _6R37Mt_1EdyOsumnGvWsEg">
+      <methodElementProperty xmi:id="_driJwFxiEd-Ffovxdlhmsw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-VFp5B68iro5ga1pz4nbQFw" href="uma://-VFp5B68iro5ga1pz4nbQFw#-VFp5B68iro5ga1pz4nbQFw"/>
+      <defaultContext href="uma://_TJVNUOvFEdyp6czxLiQq9g#_QN3nQBEHEdyM7Iu0sxfrPA"/>
+      <validContext href="uma://_TJVNUOvFEdyp6czxLiQq9g#_QN3nQBEHEdyM7Iu0sxfrPA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

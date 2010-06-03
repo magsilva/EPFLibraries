@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-78ko4CuOJERKJF9ZvwMUBQ" name="detail_ucs_and_scenarios,_4BJ_YCxSEdqjsdw1QLH_6Q" guid="-78ko4CuOJERKJF9ZvwMUBQ" changeDate="2009-03-27T08:04:37.000-0300" version="1.0.0">
+  <mainDescription>&lt;h4>
+    Most efficient way to write use cases
+&lt;/h4>
+&lt;p>
+    Because use cases model requirements, they are highly dynamic by nature. The more we examine a requirement, the more we
+    learn, and the more things change. To further complicate the issue, changes to one use case can lead to changes in
+    others. Therefore, we want a flexible, highly efficient method for writing use cases that eliminates unnecessary work
+    and rewriting.
+&lt;/p>
+&lt;p>
+    An iterative, breadth-first approach, in which the use case is continuously evaluated before adding detail, is an
+    effective way to write use cases. This breadth-first approach involves two aspects: writing the set of use cases and
+    writing individual use cases.
+&lt;/p>
+&lt;p>
+    &lt;strong>Writing sets of use cases:&lt;/strong> Use cases exist in sets, and the relationships between the various use
+    cases and Actors&amp;nbsp;are important. As you learn more about the Actors, you also learn more about the system's
+    boundaries and transactions. Likewise, as you learn more about the system's transactions, you learn more about its
+    Actors. Therefore, it is more efficient to write several use cases simultaneously than to write them sequentially. This
+    way, you can identify and understand the effects of the various use cases upon each other as you write them, rather
+    than as afterthoughts that require rewriting or elimination of previous work.
+&lt;/p>
+&lt;p>
+    &lt;strong>Writing individual use cases.&lt;/strong> Similarly, it makes sense to write each individual use case iteratively.
+    Starting with the main scenario, you can then identify various alternative and error flows that the use case might
+    follow, then evaluate, rearrange or eliminate them, and then add the details of the surviving scenarios.
+&lt;/p>
+&lt;p>
+    Consider factors that can influence the format and level of detail for your use case description.
+&lt;/p>
+&lt;h4>
+    Detail the flow of events of the main scenario
+&lt;/h4>
+&lt;p>
+    As a starting point, use the step-by-step description of the use-case main scenario. Then, gradually add details to
+    this scenario, describing &lt;strong>what&lt;/strong> the use case does, &lt;strong>not how&lt;/strong> to solve problems internal
+    to the system.
+&lt;/p>
+&lt;p>
+    A flow of events description explores:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        How and when the use case starts
+    &lt;/li>
+    &lt;li>
+        When the use case interacts with the Actors, and what data they exchange
+    &lt;/li>
+    &lt;li>
+        When the use case uses data stored in the system or stores data in the system
+    &lt;/li>
+    &lt;li>
+        How and when the use case ends
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    It does not describe:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        The GUI
+    &lt;/li>
+    &lt;li>
+        Technical details of hardware or software
+    &lt;/li>
+    &lt;li>
+        Design issues
+    &lt;/li>
+&lt;/ul>
+&lt;h4>
+    Identify alternate flows
+&lt;/h4>
+&lt;p>
+    A use case consists of a number of scenarios, each representing specific instances of the use case that correspond to
+    specific inputs from the Actor or to specific conditions in the environment. Each scenario describes alternate ways
+    that the system provides a behavior, or it can describe failure or exception cases.
+&lt;/p>
+&lt;p>
+    As you detail the main scenario, identify alternate flows by asking these questions:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Are there different options available, depending on input from the Actor? (for example, if the Actor enters an
+        invalid PIN number while accessing an ATM)
+    &lt;/li>
+    &lt;li>
+        What business rules can come into play? (for instance, the Actor requests more money from the ATM than is available
+        in her account)
+    &lt;/li>
+    &lt;li>
+        What could go wrong? (such as no network connection available when required to perform a transaction)
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    It is best to develop these scenarios iteratively, as well. Begin by identifying them. Examine each possible scenario
+    to determine whether it is relevant, that it can actually happen, and that it is distinct from other scenarios.
+    Eliminate redundant or unnecessary scenarios, and then start elaborating on the more important ones.
+&lt;/p>
+&lt;h4>
+    Structure the use case
+&lt;/h4>
+&lt;p>
+    It is useful to structure the use case according to scenarios. This helps both to simplify communication and
+    maintenance and to permit the use cases to be implemented iteratively.
+&lt;/p>
+&lt;p>
+    In addition to structuring the use cases according to scenarios, it is often useful to structure the scenarios
+    themselves into sub-flows. This provides an additional level of granularity for planning work and tracking progress.
+    Unless a sub-flow involves only a minor part of the complete flow of events (which can be described in the body of the
+    text), it is recommended that you describe each sub-flow in a separate section to the Flow of Events section. Sub-flows
+    that need to be in a separate section include these examples:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Sub-flows that occupy a large segment of a given flow of events.
+    &lt;/li>
+    &lt;li>
+        Exceptional and alternate flows of events. This helps the use case's basic flow of events to stand out more
+        clearly.
+    &lt;/li>
+    &lt;li>
+        Any sub-flow that can be executed at several intervals in the same flow of events.
+    &lt;/li>
+&lt;/ul>
+&lt;h4>
+    Describe special requirements
+&lt;/h4>
+&lt;p>
+    You must also capture any requirements that are related to the use case, but are not taken into consideration in the
+    flow of events of the use case. Such requirements are likely to be nonfunctional.
+&lt;/p>
+&lt;p>
+    Typically, nonfunctional requirements that refer to a specific use case are captured in the special requirements
+    section of the use case.&amp;nbsp;If there are nonfunctional requirements that apply to more than one use case, capture
+    these in the system-wide requirements specification.
+&lt;/p>
+&lt;h4>
+    Describe preconditions and postconditions
+&lt;/h4>
+&lt;p>
+    A &lt;strong>precondition&lt;/strong> on a use case explains the state that the system must be in for the use case to be able
+    to start. Be careful in describing the system state. Avoid describing the detail of other, incidental activities that
+    might already have taken place.
+&lt;/p>
+&lt;p>
+    A &lt;strong>postcondition&lt;/strong> on a use case lists possible states that the system can be in at the end of the use
+    case execution. The system must be in one of those states. A postcondition also states actions that the system performs
+    at the end of the use case, regardless of what occurred in the use case. Post-Conditions can be categorized as Minimal
+    Guarantees&amp;nbsp;or Success Guarantees.&amp;nbsp; A Minimal Guarantee represents a condition that will be true when the use
+    case ends, regardless of how it terminates.&amp;nbsp; A Success Guarantee represents a condition that will be true when the
+    use case ends successfully, regardless of which path it took.
+&lt;/p>
+&lt;p>
+    Neither preconditions nor postconditions need to be used to create a sequence of use cases. As a general rule, there
+    must never be a case where you have to first perform one use case and then another to have a meaningful flow of events.
+    If that is the case, correct the problem by reviewing the use cases.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_NqePEKeqEdmKDbQuyzCoqQ" name="test_log,_0ZlSsMlgEdmt3adZL5Dmdw" guid="_NqePEKeqEdmKDbQuyzCoqQ" changeDate="2008-08-15T16:57:11.671-0300" version="7.2.0">
+  <mainDescription>This&#xD;
+artifact provides a detailed, typically time-based record that both verifies&#xD;
+that a set of tests were run, and provides information that relates to the&#xD;
+success of those tests.  The focus is typically on providing an accurate audit&#xD;
+trail, which enables you to undertake a post-run diagnosis of failures. This&#xD;
+raw data is subsequently analyzed to determine the results of an aspect of&#xD;
+the test effort.</mainDescription>
+  <purpose>&lt;ul>&#xD;
+&lt;li>         To provide verification that a set of tests was run     &lt;/li>&#xD;
+&lt;li>         To provide information that relates to the success of those tests&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+  <impactOfNotHaving>&lt;p> &#xD;
+   Without this or similar documentation, there is no record of which tests&#xD;
+were run, what variances were discovered, and what action was taken. If this&#xD;
+information is not available: &lt;/p> &lt;ul>&#xD;
+&lt;li>         There is no way to know which tests passed and which failed &#xD;
+   &lt;/li>&#xD;
+&lt;li>         There is no way to assess the status of testing and the quality&#xD;
+of the product at that level of testing     &lt;/li>&#xD;
+&lt;li>         It is difficult to know how many tests remain outstanding   &#xD;
+ &lt;/li>&#xD;
+&lt;li>         Contractual and legal issues might arise     &lt;/li>&#xD;
+&lt;/ul></impactOfNotHaving>
+  <reasonsForNotNeeding>&lt;p&#xD;
+> When you execute automated tests, test logs are automatically produced.&#xD;
+Typically, the issue is not whether to produce the     test log, but whether&#xD;
+to keep a record, and where to keep the records. For manual testing, the issue&#xD;
+is whether to keep a separate test log or to summarize the test results in&#xD;
+another form.  &lt;/p></reasonsForNotNeeding>
+  <representationOptions>&lt;p&#xD;
+> Because this is a collection of raw data for subsequent analysis, it can&#xD;
+be represented in a number of ways: &lt;/p> &lt;ul>&#xD;
+&lt;li>         For manual tests, log the actual results on a copy&#xD;
+of the manual Test Script     &lt;/li>&#xD;
+&lt;li>         For automated tests, direct the output to log files that you&#xD;
+can trace back to the automated Test Script     &lt;/li>&#xD;
+&lt;li>         Track raw results data in a test management tool     &lt;/li>&#xD;
+&lt;/ul></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

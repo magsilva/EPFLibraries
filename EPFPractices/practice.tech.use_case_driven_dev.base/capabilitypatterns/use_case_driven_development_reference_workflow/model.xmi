@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.2.0" xmlns:epf="http://www.eclipse.org/epf"
+    epf:version="1.2.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_2syqEbPaEduocbW-TPTq7A"
+      guid="_2syqEbPaEduocbW-TPTq7A">
+    <resourceDescriptors xmi:id="_2syqErPaEduocbW-TPTq7A" id="-x6VfF-DqszjZdmkm9p3Lvw"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_2sH7sLPaEduocbW-TPTq7A" name="use_case_driven_development_reference_workflow"
+      guid="_2sH7sLPaEduocbW-TPTq7A">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_doAvwMO5EdupeqHTre3HvQ"
+        name="identify_and_outline_use_cases" guid="_doAvwMO5EdupeqHTre3HvQ" presentationName="Identify and Outline Use Cases"
+        superActivities="_2sH7sbPaEduocbW-TPTq7A" output="_eM_loNPfEduegN_z1rVgJA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_fUzowMO5EdupeqHTre3HvQ"
+        name="detail_use_case" guid="_fUzowMO5EdupeqHTre3HvQ" presentationName="Detail Use Case"
+        superActivities="_2sH7sbPaEduocbW-TPTq7A" output="_eM_loNPfEduegN_z1rVgJA">
+      <Task href="uma://_GbYfULPaEduocbW-TPTq7A#_SL7N0LPdEduocbW-TPTq7A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hOjYoMO5EdupeqHTre3HvQ"
+        name="detail_system_wide_requirements" guid="_hOjYoMO5EdupeqHTre3HvQ" presentationName="Detail System-Wide Requirements"
+        superActivities="_2sH7sbPaEduocbW-TPTq7A" mandatoryInput="_eM_lodPfEduegN_z1rVgJA"
+        output="_eM_lodPfEduegN_z1rVgJA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_eM_loNPfEduegN_z1rVgJA"
+        name="use_case" guid="_eM_loNPfEduegN_z1rVgJA" presentationName="Use Case"
+        superActivities="_2sH7sbPaEduocbW-TPTq7A">
+      <WorkProduct xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_OOB2AAouEdyhlpBPrduOMw#_0VGbUMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_eM_lodPfEduegN_z1rVgJA"
+        name="system_wide_requirements" guid="_eM_lodPfEduegN_z1rVgJA" presentationName="System-Wide Requirements"
+        superActivities="_2sH7sbPaEduocbW-TPTq7A">
+      <WorkProduct xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_OOB2AAouEdyhlpBPrduOMw#_BVh9cL-CEdqb7N6KIeDL8Q"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_2sH7sbPaEduocbW-TPTq7A"
+        name="use_case_driven_development_reference_workflow" guid="_2sH7sbPaEduocbW-TPTq7A"
+        presentationName="Use-Case-Driven Development Workflow" breakdownElements="_doAvwMO5EdupeqHTre3HvQ _fUzowMO5EdupeqHTre3HvQ _hOjYoMO5EdupeqHTre3HvQ _eM_loNPfEduegN_z1rVgJA _eM_lodPfEduegN_z1rVgJA">
+      <presentation xmi:id="-x6VfF-DqszjZdmkm9p3Lvw" href="uma://-x6VfF-DqszjZdmkm9p3Lvw#-x6VfF-DqszjZdmkm9p3Lvw"/>
+      <defaultContext href="uma://_eoDDMEFqEdy9ENCpSugIjA#_cZuNwLS9EduDY8LNbMCDBA"/>
+      <validContext href="uma://_eoDDMEFqEdy9ENCpSugIjA#_cZuNwLS9EduDY8LNbMCDBA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-6Y-YTrnh2OzIAbHk2eZFiA" name="new_roadmap,_lV38AFUdEd2sDeWJVZ0Ifg" guid="-6Y-YTrnh2OzIAbHk2eZFiA" changeDate="2008-11-20T15:28:34.036-0200">
+  <mainDescription>&lt;p>&#xD;
+    Version 0.3 September 2008&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Migrate to EPF 1.5 library and content and composer as two separate plugins&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Fix some Discovery content&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Complete Analysis content. Add OWL-RDF and SBVR descriptions.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Create a Design content to include activities more related to the rule set design than analysis tasks.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Add JSR94 to architecture&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Modify architecture content, and add web service design guidelines&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Complete the&amp;nbsp;architecture task description&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Next release plan: October 2008&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Design discipline&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Authoring discipline&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Rule Governance activities and discipline&lt;br />&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

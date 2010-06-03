@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-kQg7MSGPB3RPjrplyxwimQ" name="uc_model,_W2SgEDR5EdutE_HNDTJk5Q" guid="-kQg7MSGPB3RPjrplyxwimQ" changeDate="2008-08-15T16:59:12.171-0300" version="1.0.0">
+  <purpose>&lt;p>This&#xD;
+artifact presents an overview of the intended behavior of the system. It is&#xD;
+the basis for agreement between stakeholders and the project team in regards&#xD;
+to the intended functionality of the system. It also guides various tasks&#xD;
+in the software development lifecycle. &lt;/p></purpose>
+  <impactOfNotHaving>Without&#xD;
+this artifact, it is difficult to determine all of the relationships between&#xD;
+actors and use cases. It is also difficult to gain an understanding of how&#xD;
+different use cases relate.</impactOfNotHaving>
+  <reasonsForNotNeeding>&lt;p&#xD;
+> You might not need this requirement if the overall set of use cases is small&#xD;
+and has no complex relationships.   &lt;/p> &lt;p> You also might not need a use-case&#xD;
+model if you use an alternative approach to document functional requirements. &lt;/p></reasonsForNotNeeding>
+  <representationOptions>&lt;p&#xD;
+>Representation options include reports and diagrams from UML modeling tools,&#xD;
+graphical representations created by using drawing tools, and drawings on&#xD;
+whiteboards. Most of the information in the use-case model is&#xD;
+captured in the use-case     specifications. &lt;/p></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

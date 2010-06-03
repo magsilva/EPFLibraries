@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-yNrF2Ac8VgD0WjoUxGOsIQ" name="identify_and_refine_requirements,_xxcpgdOEEdyqlogshP8l4g" guid="-yNrF2Ac8VgD0WjoUxGOsIQ" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    This activity describes the tasks you perform to gather, specify, analyze, and validate a subset of system's&#xD;
+    requirements prior to implementation and verification. This does not imply that all requirements are detailed prior to&#xD;
+    commencing implementation. Rather, you perform this activity throughout the lifecycle with stakeholders and the entire&#xD;
+    development team collaborating to ensure that a clear, consistent, correct, verifiable, and feasible set of&#xD;
+    requirements is available, as needed, to drive implementation and verification.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    During &lt;b>Inception&lt;/b>, the focus is on gaining agreement on the problem to be solved, gathering stakeholder needs,&#xD;
+    and capturing high-level system features.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    During &lt;b>Elaboration&lt;/b>, the focus shifts to defining the solution. This consists of finding those requirements that&#xD;
+    have the most value to stakeholders, that are particularly challenging or risky, or that are architecturally&#xD;
+    significant. You then describe requirements (that are prioritized, via the work items list, for implementation in the&#xD;
+    early iterations) in sufficient detail to validate the development team's understanding of the requirements, to ensure&#xD;
+    concurrence with stakeholders, and to permit software development to begin. For each of these requirements, define&#xD;
+    associated test cases to ensure that the requirements are verifiable, and to provide the guidance needed for&#xD;
+    verification and validation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    During Construction, the focus shifts to refining the system definition. This consists of detailing the remaining&#xD;
+    requirements and associated test cases as necessary to drive implementation and verification, and managing requirements&#xD;
+    change.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ProcessDescription>

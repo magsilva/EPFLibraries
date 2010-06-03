@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_a3uz4LBYEdm7Eph_l9Cn9w" name="assess_results,_0l53cMlgEdmt3adZL5Dmdw" guid="_a3uz4LBYEdm7Eph_l9Cn9w" changeDate="2008-07-14T13:22:56.260-0300" version="1.0.0">
+  <mainDescription>Coordinate the assessment and discuss with the team how the iteration results will be best presented to stakeholders, so that&#xD;
+they can learn as much about the solution as possible. Listen to what the team has to say about what went wrong (and what went&#xD;
+right) during the iteration. This knowledge will help everybody make informed decisions about the next iteration planning,&#xD;
+and determine the best course of action for the project. This task is performed at the end of every iteration until the end&#xD;
+of the project.</mainDescription>
+  <sections xmi:id="_o28GgMMsEdmdo9HxCRR_Gw" name="Prepare for iteration assessment" guid="_o28GgMMsEdmdo9HxCRR_Gw">
+    <sectionDescription>&lt;p>&#xD;
+    Towards the end of the iteration, the team jointly assesses whether the objectives and evaluation criteria established&#xD;
+    in the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.iterative_dev.base/workproducts/iteration_plan_B46FED39.html&quot; guid=&quot;_0aQBEslgEdmt3adZL5Dmdw&quot;>Iteration Plan&lt;/a> were met, and whether the team adhered to the plan and completed all&#xD;
+    of the work items committed to the iteration. The team makes use of objective measures to the greatest&#xD;
+    extent possible. To assess that a given work item is completed, the team ensures that the corresponding test cases were&#xD;
+    successfully run against it.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The team prepares a demonstration of the features implemented at that point, so that during the iteration assessment stakeholders can&#xD;
+    have a real sense of progress made. The team decides whether each developer should demonstrate the features that they&#xD;
+    implemented, or if the project manager or senior developer demonstrates it all, with other team members present to answer&#xD;
+    questions. The project manager prepares reports that show project status, such as work burndown and&#xD;
+    test case reports. &#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    These activities happen in preparation for the iteration assessment meeting with stakeholders that occurs on the last&#xD;
+    day of the iteration.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_iSiDEIx4Edyzd4h-mxj9YA" name="Demonstrate value and gather feedback" guid="_iSiDEIx4Edyzd4h-mxj9YA">
+    <sectionDescription>&lt;p>&#xD;
+    The team demonstrates the product to customers, end-users, and other stakeholders to collect their feedback or, better&#xD;
+    yet, have end users use the product themselves. This can be done throughout the iteration, but at least during&#xD;
+    the iteration assessment that occurs at the end of the iteration (see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.mgmt.iterative_dev.base/guidances/guidelines/iteration_assessment_E27E9DDE.html&quot; guid=&quot;_FekBAC4IEdyhZrtGEIITGQ&quot;>Guideline: Iteration Assessment&lt;/a>). Work that is not completed should not be&#xD;
+    demonstrated.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Resulting knowledge (such as new functionality, requested changes, and defects) are recorded in the &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html&quot; guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;>Work Items List&lt;/a>, so that project priorities, scope, and duration can be refined in the&#xD;
+    next iteration planning.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_iL7cQEpqEdup0IY9DKDPkg" name="Perform a retrospective" guid="_iL7cQEpqEdup0IY9DKDPkg">
+    <sectionDescription>&lt;p>&#xD;
+    Review with the team the approach taken to development and collaboration, the effectiveness of the development&#xD;
+    environment, the suitability of the working environment, and other factors. Discuss what things went well, what could&#xD;
+    have gone better, and how things could be changed to deliver better results. Capture in the current &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.iterative_dev.base/workproducts/iteration_plan_B46FED39.html&quot; guid=&quot;_0aQBEslgEdmt3adZL5Dmdw&quot;>Iteration Plan&lt;/a> the assessment results, stakeholder feedback, and actions&#xD;
+    to be taken to improve the development approach for the next iteration. Record lessons learned in this iteration&#xD;
+    with a collection of lessons learned for the entire project.  &#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_1YHH8DLqEdueZPye-FaNgA" name="Close-out project" guid="_1YHH8DLqEdueZPye-FaNgA">
+    <sectionDescription>&lt;p>&#xD;
+    This step must be performed only when the iteration review coincides with the end of the project. Involve the team and&#xD;
+    stakeholders in a final assessment for project acceptance which, if successful, marks the point when the customer&#xD;
+    accepts ownership of the software product. Complete the close-out of the project by disposing of the remaining assets&#xD;
+    and reassigning the remaining staff.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>Demonstrate the value of the solution increment that was built during the iteration and apply the lessons learned to modify&#xD;
+the project or improve the process.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

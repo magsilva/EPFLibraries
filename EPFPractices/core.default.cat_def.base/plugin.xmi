@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_MRPlsUFXEdy9ENCpSugIjA" guid="_MRPlsUFXEdy9ENCpSugIjA">
+    <resourceDescriptors xmi:id="_lZiRIcYcEdyXeo04os5BOw" id="-IDdeF_boiqzJJnjpXrdLFQ" uri="disciplines/architecture_discipline.xmi"/>
+    <resourceDescriptors xmi:id="_KKlXEMYdEdyXeo04os5BOw" id="-JR-x8arulRODu1y2tP928w" uri="disciplines/project_management_discipline.xmi"/>
+    <resourceDescriptors xmi:id="_KKuhAMYdEdyXeo04os5BOw" id="-i5J2T1z4y0Y1dFcHm78XXg" uri="disciplines/requirements_discipline.xmi"/>
+    <resourceDescriptors xmi:id="_KKuhAcYdEdyXeo04os5BOw" id="-yVQcZlwHTZIT9-i97PVUYQ" uri="disciplines/test_discipline.xmi"/>
+    <resourceDescriptors xmi:id="_K8f8McYdEdyXeo04os5BOw" id="-aa7DMnmSG7Hlkpi_-yb3XA" uri="disciplines/development_discipline.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_MRPloEFXEdy9ENCpSugIjA" name="core.default.cat_def.base" guid="_MRPloEFXEdy9ENCpSugIjA" presentationName="Default Category Definitions" briefDescription="This plug-in contains the default definitions for Domains and Disciplines." changeDate="2008-01-18T21:14:38.515-0200">
+    <methodElementProperty xmi:id="_dlqLQFxiEd-Ffovxdlhmsw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_cTs20KzREduOqvpk_MDLfQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MRPloUFXEdy9ENCpSugIjA" name="Content" guid="_MRPloUFXEdy9ENCpSugIjA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MRPlokFXEdy9ENCpSugIjA" name="Categories" guid="_MRPlokFXEdy9ENCpSugIjA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MRPlo0FXEdy9ENCpSugIjA" name="Domains" guid="_MRPlo0FXEdy9ENCpSugIjA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_1r0bcK80Edy9cPK11VzBuQ" name="architecture_domain" guid="_1r0bcK80Edy9cPK11VzBuQ" presentationName="Architecture" briefDescription="This is the list of work products related to the architecture domain."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_5JQLoK80Edy9cPK11VzBuQ" name="development_domain" guid="_5JQLoK80Edy9cPK11VzBuQ" presentationName="Development" briefDescription="This is the list of work products related to the development domain."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_8M6J4K80Edy9cPK11VzBuQ" name="project_management_domain" guid="_8M6J4K80Edy9cPK11VzBuQ" presentationName="Project Management" briefDescription="This is the list of work products related to the project management domain."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_AIcLUK81Edy9cPK11VzBuQ" name="requirements_domain" guid="_AIcLUK81Edy9cPK11VzBuQ" presentationName="Requirements" briefDescription="This is the list of work products related to the requirements domain."/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_CsgDgK81Edy9cPK11VzBuQ" name="test_domain" guid="_CsgDgK81Edy9cPK11VzBuQ" presentationName="Test" briefDescription="This is the list of work products related to the Test domain."/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MRPlpEFXEdy9ENCpSugIjA" name="Disciplines" guid="_MRPlpEFXEdy9ENCpSugIjA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_iGSHsFZ-EdyIUdvDLLUdeg" name="architecture_discipline" guid="_iGSHsFZ-EdyIUdvDLLUdeg" presentationName="Architecture" briefDescription="This discipline explains how to create software architecture from architecturally &#xD;&#xA;significant requirements. The architecture is built in the Development discipline.">
+            <presentation xmi:id="-IDdeF_boiqzJJnjpXrdLFQ" href="uma://-IDdeF_boiqzJJnjpXrdLFQ#-IDdeF_boiqzJJnjpXrdLFQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_iGSHsVZ-EdyIUdvDLLUdeg" name="development_discipline" guid="_iGSHsVZ-EdyIUdvDLLUdeg" presentationName="Development" briefDescription="This discipline explains how to design and implement a technical solution that &#xD;&#xA;conforms to the architecture and supports the requirements.">
+            <presentation xmi:id="-aa7DMnmSG7Hlkpi_-yb3XA" href="uma://-aa7DMnmSG7Hlkpi_-yb3XA#-aa7DMnmSG7Hlkpi_-yb3XA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_iGSHtFZ-EdyIUdvDLLUdeg" name="project_management_discipline" guid="_iGSHtFZ-EdyIUdvDLLUdeg" presentationName="Project Management" briefDescription="This discipline explains how to coach, facilitate, and support the team, helping &#xD;&#xA;it to deal with risk and obstacles found when building software.">
+            <presentation xmi:id="-JR-x8arulRODu1y2tP928w" href="uma://-JR-x8arulRODu1y2tP928w#-JR-x8arulRODu1y2tP928w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_iGSHtVZ-EdyIUdvDLLUdeg" name="requirements_discipline" guid="_iGSHtVZ-EdyIUdvDLLUdeg" presentationName="Requirements" briefDescription="This discipline explains how to elicit, analyze, specify, validate, and manage &#xD;&#xA;the requirements for the system to be developed.">
+            <presentation xmi:id="-i5J2T1z4y0Y1dFcHm78XXg" href="uma://-i5J2T1z4y0Y1dFcHm78XXg#-i5J2T1z4y0Y1dFcHm78XXg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_iGSHtlZ-EdyIUdvDLLUdeg" name="test_discipline" guid="_iGSHtlZ-EdyIUdvDLLUdeg" presentationName="Test" briefDescription="This discipline explains how to provide feedback about the maturing system by designing, implementing, running, and evaluating tests.">
+            <presentation xmi:id="-yVQcZlwHTZIT9-i97PVUYQ" href="uma://-yVQcZlwHTZIT9-i97PVUYQ#-yVQcZlwHTZIT9-i97PVUYQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MRPlpUFXEdy9ENCpSugIjA" name="RoleSets" guid="_MRPlpUFXEdy9ENCpSugIjA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MRPlpkFXEdy9ENCpSugIjA" name="WP Types" guid="_MRPlpkFXEdy9ENCpSugIjA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MRPlp0FXEdy9ENCpSugIjA" name="Tools" guid="_MRPlp0FXEdy9ENCpSugIjA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MRPlqEFXEdy9ENCpSugIjA" name="StandardCategories" guid="_MRPlqEFXEdy9ENCpSugIjA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MRPlqUFXEdy9ENCpSugIjA" name="CustomCategories" guid="_MRPlqUFXEdy9ENCpSugIjA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MRPlqkFXEdy9ENCpSugIjA" name="Hidden" guid="_MRPlqkFXEdy9ENCpSugIjA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_MRPlq0FXEdy9ENCpSugIjA" name="Custom Categories" guid="_MRPlq0FXEdy9ENCpSugIjA"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MRPlrEFXEdy9ENCpSugIjA" name="CoreContent" guid="_MRPlrEFXEdy9ENCpSugIjA"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_MRPlrUFXEdy9ENCpSugIjA" name="CapabilityPatterns" guid="_MRPlrUFXEdy9ENCpSugIjA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_MRPlrkFXEdy9ENCpSugIjA" name="DeliveryProcesses" guid="_MRPlrkFXEdy9ENCpSugIjA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_MRPlr0FXEdy9ENCpSugIjA" name="ProcessContributions" guid="_MRPlr0FXEdy9ENCpSugIjA"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

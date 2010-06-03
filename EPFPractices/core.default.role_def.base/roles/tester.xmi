@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_NqYIcKeqEdmKDbQuyzCoqQ" name="tester,_0ZM4MclgEdmt3adZL5Dmdw" guid="_NqYIcKeqEdmKDbQuyzCoqQ" changeDate="2009-07-29T15:36:50.175-0300" version="1.0.0">
+  <mainDescription>&lt;p> The person in this role is primarily responsible for the following&amp;nbsp;tasks: &#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+  &lt;li> Identifying the tests&amp;nbsp;that need to&amp;nbsp;be performed &lt;/li>&#xD;
+  &lt;li> Identifying the most appropriate implementation approach for a given test &#xD;
+  &lt;/li>&#xD;
+  &lt;li> Implementing individual tests &lt;/li>&#xD;
+  &lt;li> Setting up and running the tests &lt;/li>&#xD;
+  &lt;li> Logging outcomes and verifying that the tests have been run &lt;/li>&#xD;
+  &lt;li> Analyzing and guiding the recovery from execution errors &lt;/li>&#xD;
+  &lt;li> Communicating test results to the team &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <skills>&lt;p> A person&amp;nbsp;filling the&amp;nbsp;this role should have these skills: &lt;/p>&#xD;
+&lt;ul>&#xD;
+  &lt;li> Knowledge of testing approaches and techniques &lt;/li>&#xD;
+  &lt;li> Diagnostic and problem-solving skills &lt;/li>&#xD;
+  &lt;li> Knowledge of the system or application being tested (desirable) &lt;/li>&#xD;
+  &lt;li> Knowledge of networking and system architecture (desirable) &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p> Where automated testing is required, consider requiring these additional qualifications: &#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+  &lt;li> Training in the appropriate use of test automation tools &lt;/li>&#xD;
+  &lt;li> Experience using test automation tools &lt;/li>&#xD;
+  &lt;li> Programming skills &lt;/li>&#xD;
+  &lt;li> Debugging and diagnostic skills &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p> &lt;strong>Note:&lt;/strong> &lt;br />&#xD;
+  Specific skill requirements vary depending on the type of testing that you are &#xD;
+  conducting. For example, the skills needed to successfully use system load-testing &#xD;
+  automation tools are different from those needed for the automation of system &#xD;
+  functional testing. &lt;/p></skills>
+  <assignmentApproaches>&lt;p>
+            This role can be assigned in the following ways:
+        &lt;/p>
+        &lt;ul>
+            &lt;li>
+                Assign one or more testing staff members to perform this role. This is a fairly standard approach and is
+                particularly suitable for small teams, as well as for teams of any size where the team is made up of an experienced
+                group of testers of relatively equal skill levels.
+            &lt;/li>
+            &lt;li>
+                Assign one or more testing staff members to perform only this role.&amp;nbsp;This works well in large teams. It is also
+                useful to separate responsibilities when some of the testing staff has more test automation experience than other
+                team members.
+            &lt;/li>
+            &lt;li>
+                Assign one (or more) team member who is already playing other role in the project to be responsible for the testing
+                of some part of the system's capabilities.&amp;nbsp;The team member must have the appropriate test skills.
+            &lt;/li>
+        &lt;/ul></assignmentApproaches>
+</org.eclipse.epf.uma:RoleDescription>

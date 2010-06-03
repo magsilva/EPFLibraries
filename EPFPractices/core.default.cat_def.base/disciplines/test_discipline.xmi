@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-yVQcZlwHTZIT9-i97PVUYQ" name="test_discipline,_iGSHtlZ-EdyIUdvDLLUdeg" guid="-yVQcZlwHTZIT9-i97PVUYQ" changeDate="2009-07-29T16:10:07.069-0300" version="7.2.0">
+  <mainDescription>&lt;p>
+            The purpose of this discipline is to:
+        &lt;/p>
+        &lt;ul>
+            &lt;li>
+                Provide early and frequent &lt;em>feedback&lt;/em> about whether the system satisfies the requirements
+            &lt;/li>
+            &lt;li>
+                Objectively measure progress in small increments
+            &lt;/li>
+            &lt;li>
+                Identify issues with the solution, increasing the probability that the system will behave correctly
+            &lt;/li>
+            &lt;li>
+                Provide assurance that changes to the system do not introduce new defects
+            &lt;/li>
+            &lt;li>
+                Improve velocity by facilitating the discovery of issues with requirements, designs, and implementations as early
+                as possible
+            &lt;/li>
+        &lt;/ul>
+        &lt;p>
+            The Test discipline is iterative and incremental. It applies the strategy of &quot;test early and test often&quot; to retire
+            risks as early as possible in the system's lifecycle.
+        &lt;/p>
+        &lt;p>
+            Testing occurs in each iteration of the lifecycle, beginning with the earliest builds of the system. In fact, it is
+            common for one iteration to have many test cycles, depending on the frequency of new builds.
+        &lt;/p>
+        &lt;p>
+            Testing asks the question: &quot;What does the solution have to &lt;em>do&lt;/em> for us to consider a requirement implemented?&quot;
+            Tests elaborate on the requirements with specific conditions of satisfaction that the solution must meet.
+        &lt;/p>
+        &lt;p>
+            This discipline challenges the assumptions, risks, and uncertainty inherent in the development of highly technical
+            artifacts and addresses those concerns by using concrete demonstration and impartial evaluation.
+        &lt;/p>
+        &lt;p>
+            The Test discipline relates to the other disciplines in the following ways:
+        &lt;/p>
+        &lt;ul>
+            &lt;li>
+                The &lt;a class=&quot;elementLink&quot;
+                href=&quot;./../../core.default.cat_def.base/disciplines/requirements_discipline_9520664.html&quot;
+                guid=&quot;_iGSHtVZ-EdyIUdvDLLUdeg&quot;>Requirements&lt;/a> discipline identifies the &lt;em>intent&lt;/em> of the system. Testing
+                elaborates on the requirements with detailed tests that measure how the system supports the requirements.
+            &lt;/li>
+            &lt;li>
+                The &lt;a class=&quot;elementLink&quot;
+                href=&quot;./../../core.default.cat_def.base/disciplines/development_discipline_44C02445.html&quot;
+                guid=&quot;_iGSHsVZ-EdyIUdvDLLUdeg&quot;>Development&lt;/a> discipline creates incremental builds of the system that the Test
+                discipline evaluates. In each iteration, testing provides objective feedback. Effective testing enables developers
+                to focus on implementing new functionality and improving the design of the system.
+            &lt;/li>
+            &lt;li>
+                The &lt;a class=&quot;elementLink&quot;
+                href=&quot;./../../core.default.cat_def.base/disciplines/project_management_discipline_FEB42654.html&quot;
+                guid=&quot;_iGSHtFZ-EdyIUdvDLLUdeg&quot;>Project Management&lt;/a> discipline plans the overall project and the scope of work
+                for each iteration. The Test discipline provides an objective measure of progress, which enables adaptive planning.
+            &lt;/li>
+        &lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

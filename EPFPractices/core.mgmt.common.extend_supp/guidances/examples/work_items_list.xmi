@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-qunTPN3vqTIGpELwajXpLA" name="work_items_list,_nHomIDgzEdu4E8ZdmlYjtA" guid="-qunTPN3vqTIGpELwajXpLA" changeDate="2008-06-27T13:58:14.939-0300" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    &lt;a href=&quot;./resources/ex_work_items_list.xls&quot; target=&quot;_blank&quot;>&lt;/a>&amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+  <attachments>resources/ex_work_items_list.xls</attachments>
+</org.eclipse.epf.uma:GuidanceDescription>

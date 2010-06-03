@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-bbpT_BdDRrv6waNI365Qhg" name=",_48EKsBOMEduCNqgZdt_OaA" guid="-bbpT_BdDRrv6waNI365Qhg" changeDate="2008-02-24T13:12:12.421-0300" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    The purpose in this phase is to complete the development of the system based upon the baselined architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p> There are objectives for the Construction phase that help us to&amp;nbsp;have &#xD;
+  cost-efficient development of a complete product -- an operational version of &#xD;
+  your system -- that can be deployed&amp;nbsp;in the user community&amp;nbsp;&lt;a class=&quot;elementlinkwithusertext&quot; href=&quot;./../../../core.mgmt.common.base/guidances/supportingmaterials/references.mgmt_D80619F3.html#KRO03&quot; guid=&quot;_JlTPUM6aEdyuBO4ZIzcyig&quot;>[KRO03]&lt;/a>: &#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &#xD;
+  &lt;li> Iteratively develop a complete product that is ready to transition to its &#xD;
+    user community. Describe remaining requirements, fill in design details, complete &#xD;
+    the implementation, and test the software. Release the first operational version &#xD;
+    (beta) of the system and determine whether users are ready for the application &#xD;
+    to be deployed. &lt;/li>&#xD;
+    &#xD;
+  &lt;li> Minimize development costs and achieve some degree of parallelism. Optimize &#xD;
+    resources and leverage development parallelism between developers or teams &#xD;
+    of developers by, for example, assigning components that can be developed &#xD;
+    independently of one another. &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;h4>&#xD;
+    Key considerations&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    Typically, the Construction phase has more iterations (two to four) than the other phases, depending on the types of&#xD;
+    projects:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &#xD;
+  &lt;li> &lt;b>Simple project: &lt;/b>One iteration to build the product (to a beta release) &#xD;
+  &lt;/li>&#xD;
+    &#xD;
+  &lt;li>&lt;b> More substantial project: &lt;/b>One iteration to expose a partial system &#xD;
+    and one to mature it to beta testing &lt;/li>&#xD;
+  &lt;li>&lt;b> Large project: &lt;/b>Three or more iterations, depending upon the size &#xD;
+    of the project (number of requirements to implement for a beta release) &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

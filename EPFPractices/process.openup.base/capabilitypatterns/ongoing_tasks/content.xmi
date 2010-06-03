@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-aXudKqi6rjimd3UsF0smZA" name="ongoing_tasks,__ZInMdOEEdyqlogshP8l4g" guid="-aXudKqi6rjimd3UsF0smZA" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    This activity includes a task for requesting changes. This task may occur any time during the lifecycle in response to&#xD;
+    an observed defect, a desired enhancement, or a change request. It is not planned, which means that it does not appear&#xD;
+    as a scheduled activity on the project plan, iteration plan, or work items list. Nevertheless, it is a critical&#xD;
+    activity that must be performed to ensure project success, because your environment is not static.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Any role may perform this task, however the most common sources of &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.tech.continuous_integration.base/guidances/concepts/change_requests_AD4868FE.html&quot; guid=&quot;_6jdvECb3Edqh1LYUOGRh2A&quot;>Change Requests&lt;/a> are stakeholders (enhancement requests and change requests) and&#xD;
+    testers (defect reports).&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ProcessDescription>

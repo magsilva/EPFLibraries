@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Rcm_MlViENAvFFyIe9V3dQ" name="identify_and_outline_actors_and_ucs,_eyL0wCu-EdqSxKAVa9kmvA" guid="-Rcm_MlViENAvFFyIe9V3dQ" changeDate="2009-03-27T08:07:00.000-0300" version="1.0.0">
+  <mainDescription>&lt;h4>
+    Identifying actors
+&lt;/h4>
+&lt;p>
+    Find the external entities with which the system under development must interact. Candidates include groups of users
+    who will require help from the system to perform their tasks and run the system's primary or secondary functions, as
+    well as external hardware, software, and other systems.
+&lt;/p>
+&lt;p>
+    Define each candidate actor by naming it and writing a brief description. Includes the actor's area of responsibility
+    and the goals that the actor will attempt to accomplish when using the system. Eliminate actor candidates who do not
+    have any goals.
+&lt;/p>
+&lt;p>
+    These questions are useful in identifying actors:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Who will supply, use, or remove information from the system?
+    &lt;/li>
+    &lt;li>
+        Who will use the system?
+    &lt;/li>
+    &lt;li>
+        Who is interested in a certain feature or service provided by the system?
+    &lt;/li>
+    &lt;li>
+        Who will support and maintain the system?
+    &lt;/li>
+    &lt;li>
+        What are the system's external resources?
+    &lt;/li>
+    &lt;li>
+        What other systems will need to interact with the system under development?
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    Review the list of stakeholders that you captured in the Vision statement. Not all stakeholders will be actors
+    (meaning, they will not all interact directly with the system under development), but this list of stakeholders is
+    useful for identifying candidates for actors.
+&lt;/p>
+&lt;h4>
+    Identifying&amp;nbsp;use cases
+&lt;/h4>
+&lt;p>
+    The best way to find use cases is to consider what each actor requires of the system. For each actor, human or not,
+    ask:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        What are the goals that the actor will attempt to accomplish with the system?
+    &lt;/li>
+    &lt;li>
+        What are the primary tasks that the actor wants the system to perform?
+    &lt;/li>
+    &lt;li>
+        Will the actor create, store, change, remove, or read data in the system?
+    &lt;/li>
+    &lt;li>
+        Will the actor need to inform the system about sudden external changes?
+    &lt;/li>
+    &lt;li>
+        Does the actor need to be informed about certain occurrences, such as unavailability of a network resource,&amp;nbsp;in
+        the system?
+    &lt;/li>
+    &lt;li>
+        Will the actor perform a system startup or shutdown?
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    Understanding how&amp;nbsp;the target&amp;nbsp;organization works and how this information system might be incorporated into
+    existing operations gives an idea of system's surroundings. That information can reveal other use case candidates.
+&lt;/p>
+&lt;p>
+    Give a unique name and brief description that clearly describes the goals for each use case. If the candidate use case
+    does not have goals, ask yourself why it exists, and then either identify a goal or eliminate the use case.
+&lt;/p>
+&lt;h4>
+    Outlining Use Cases
+&lt;/h4>
+&lt;p>
+    Without going into details, write a first draft of the flow of events of the use cases identified as being of high
+    priority. Initially, write a simple step-by-step description of the basic flow of the use case. The step-by-step
+    description is a simple ordered list of interactions between the actor and the system. For example, the description of
+    the basic flow of the Withdraw Cash use case of an automated teller machine (ATM) would be something like this:
+&lt;/p>
+&lt;ol>
+    &lt;li>
+        The&amp;nbsp;customer inserts a bank card.
+    &lt;/li>
+    &lt;li>
+        The system validates the card and prompts the person to enter a personal identification number (PIN).
+    &lt;/li>
+    &lt;li>
+        The customer&amp;nbsp;enters a PIN.
+    &lt;/li>
+    &lt;li>
+        The system validates the PIN and prompts the customer to select an action.
+    &lt;/li>
+    &lt;li>
+        The customer selects Withdraw Cash.
+    &lt;/li>
+    &lt;li>
+        The system prompts the customer to choose which account.
+    &lt;/li>
+    &lt;li>
+        The customer selects the checking account.
+    &lt;/li>
+    &lt;li>
+        The system prompts for an amount.
+    &lt;/li>
+    &lt;li>
+        The customer enters the amount to withdraw.
+    &lt;/li>
+    &lt;li>
+        The system validates the amount (assuming sufficient funds), and then issues cash and receipt.
+    &lt;/li>
+    &lt;li>
+        The customer takes the cash and receipt, and then retrieves the bank card.
+    &lt;/li>
+    &lt;li>
+        The use case ends.
+    &lt;/li>
+&lt;/ol>
+&lt;p>
+    As you create this step-by-step description of the basic flow of events, you can discover alternative and exceptional
+    flows. For example, what happens if the customer enters an invalid PIN? Record the name and a brief description of each
+    alternate flow that you identified.
+&lt;/p>
+&lt;h4>
+    Representing relationships between actors and use cases
+&lt;/h4>
+&lt;p>
+    The relationship between actors and use cases&amp;nbsp;can be captured, or documented.&amp;nbsp; There are several ways to do
+    this. If you are using a use-case model on the project, you can create use-case diagrams to show how&amp;nbsp;actors and
+    use cases&amp;nbsp;relate to each other.&amp;nbsp; Refer to&amp;nbsp;&lt;a
+    href=&quot;./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/use_case_model_4C64E97D.html&quot;
+    guid=&quot;_0VAUsMlgEdmt3adZL5Dmdw&quot;>Guideline: Use-Case Model&lt;/a>&amp;nbsp;for more information.
+&lt;/p>
+&lt;p>
+    If you are not using a use-case model for the project, make sure that each use case identifies the associated primary
+    and secondary actors.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

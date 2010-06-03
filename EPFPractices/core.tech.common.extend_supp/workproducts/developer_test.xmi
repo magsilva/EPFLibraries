@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-1QQ8ajRx-ZzZnCjhkuaMXQ" name="developer_test,_0YuXEclgEdmt3adZL5Dmdw" guid="-1QQ8ajRx-ZzZnCjhkuaMXQ" changeDate="2009-07-28T17:16:53.952-0300" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    This artifact covers all of the steps to validate a specific aspect of an implementation element. For example, a test&#xD;
+    could ensure that the parameters of a method properly accept the uppermost and lowermost required values. A developer&#xD;
+    test specifies test entries, execution conditions, and expected results. These details are identified to evaluate a&#xD;
+    particular aspect of a scenario.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When you collect developer tests for a specific implementation element, you can validate that the element performs as&#xD;
+    specified.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The tests be self-documenting so that it is clear upon completion of the test whether the implementation element has&#xD;
+    run correctly.&#xD;
+&lt;/p></mainDescription>
+  <purpose>This&#xD;
+artifact is used to evaluate whether an implementation element performs as&#xD;
+specified.</purpose>
+  <impactOfNotHaving>If&#xD;
+you do not run developer tests, you cannot ensure that elements that you modify&#xD;
+over time are working. This can inhibit iterative development and maintenance.</impactOfNotHaving>
+  <reasonsForNotNeeding>If&#xD;
+you can embed the tests into the production code, you might not need a separate&#xD;
+work product. Nonetheless, some level of support for developer testing is&#xD;
+always necessary when you develop application software.</reasonsForNotNeeding>
+  <briefOutline>&lt;p>Although&#xD;
+there is no predefined template for this work product, and testing tools affect&#xD;
+how the work product is handled, you should address the following issues:&lt;/p> &lt;ul>&#xD;
+&lt;li>         Setup     &lt;/li>&#xD;
+&lt;li>         Inputs     &lt;/li>&#xD;
+&lt;li>         Script     &lt;/li>&#xD;
+&lt;li>         Expected Results     &lt;/li>&#xD;
+&lt;li>         Evaluation Criteria     &lt;/li>&#xD;
+&lt;li>         Clean-Up     &lt;/li>&#xD;
+&lt;/ul></briefOutline>
+  <representationOptions>&lt;p align=&quot;left&quot;>     Suggestions and options for representing this work product: &lt;/p> &lt;h4> &#xD;
+   Suggestion: Automated code unit &lt;/h4> &lt;p> The most appropriate technique&#xD;
+for running these tests is to use code that tests the implementation element&#xD;
+scenarios and that you can run regularly as you update the system during development. &lt;/p> &lt;p> When&#xD;
+code is the sole form of the tests, ensure that the code is self-documenting.&#xD;
+The code should document the specifications of the conditions you are testing&#xD;
+and the setup or clean-up that is required for the test to run properly. &lt;/p> &lt;h4> &#xD;
+   Option: Manual instructions &lt;/h4> &lt;p>In some cases, you can use manual&#xD;
+instructions. For example, when testing a user interface, a developer might&#xD;
+follow a script, explaining the implementation element. In this case, it is&#xD;
+still valuable to create a test harness that goes straight to the user interface.&#xD;
+That way, the developer can follow the script without having to follow a complicated&#xD;
+set of instructions to find a particular screen or page. &lt;/p> &lt;h4>     Option:&#xD;
+Embedded code &lt;/h4> &lt;p> You can use certain technologies (such as Java(TM)5 Test Annotation) to embed tests in the implementation. In these cases, there&#xD;
+will be a logical work product, but it will be assimilated into&#xD;
+the code that you are testing. When you use this option, ensure that the code&#xD;
+is self-documenting.&lt;/p></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-xLl5B3qPPdk8LfLut7r8hQ" name="new_role_set,_FBekABAaEdyqb5chWQXsPQ" guid="-xLl5B3qPPdk8LfLut7r8hQ" changeDate="2007-06-01T05:28:48.562-0300" version="7.1.0">
+  <mainDescription>&lt;p> This page allows you to navigate the published configuration from the perspective &#xD;
+  of &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.default.uma_concept.base/guidances/termdefinitions/role_37A0C602.html&quot; guid=&quot;_yUefQNnmEdmO6L4XMImrsA&quot;>Roles&lt;/a>. &#xD;
+  You can see the roles that have been included and visit each role page to see &#xD;
+  its definition and relationships to other elements. &lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

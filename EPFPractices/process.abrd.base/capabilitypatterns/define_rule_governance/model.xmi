@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_2iW14MrsEd2sX5aq6os4oQ" guid="_2iW14MrsEd2sX5aq6os4oQ">
+    <resourceDescriptors xmi:id="_2iW14crsEd2sX5aq6os4oQ" id="-Cr6J3-t_GtgvW9ciCDH6Gg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_2o6S8H_DEd2YWI_0AZcMOA" name="define_rule_governance" guid="_2o6S8H_DEd2YWI_0AZcMOA">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4hT_BH_DEd2YWI_0AZcMOA" name="define_rule_life_cycle" guid="_4hT_BH_DEd2YWI_0AZcMOA" presentationName="Define Rule Life Cycle" superActivities="_2o6S8X_DEd2YWI_0AZcMOA" output="_4hT_Dn_DEd2YWI_0AZcMOA" performedPrimarilyBy="_4hT_B3_DEd2YWI_0AZcMOA">
+      <methodElementProperty xmi:id="_dusyg1xiEd-Ffovxdlhmsw" name="descriptor_localUsingInfo" value="_4hT_B3_DEd2YWI_0AZcMOA/performedPrimarilyBy"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_RBu1YFH7Edy72tV0zV7--Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4hT_BX_DEd2YWI_0AZcMOA" name="define_ruleset_life_cycle" guid="_4hT_BX_DEd2YWI_0AZcMOA" presentationName="Define Rule Set Life Cycle " superActivities="_2o6S8X_DEd2YWI_0AZcMOA" additionallyPerformedBy="_4hT_CH_DEd2YWI_0AZcMOA" performedPrimarilyBy="_4hT_B3_DEd2YWI_0AZcMOA">
+      <methodElementProperty xmi:id="_durkYFxiEd-Ffovxdlhmsw" name="descriptor_localUsingInfo" value="_4hT_B3_DEd2YWI_0AZcMOA/performedPrimarilyBy/_4hT_CH_DEd2YWI_0AZcMOA/additionallyPerformedBy"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_RBu1YVH7Edy72tV0zV7--Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4hT_Bn_DEd2YWI_0AZcMOA" name="maintain_rules" guid="_4hT_Bn_DEd2YWI_0AZcMOA" presentationName="Maintain Rules" briefDescription="The rule writer is maintening the rules to correct faults or improve performance." superActivities="_2o6S8X_DEd2YWI_0AZcMOA" additionallyPerformedBy="_4hT_C3_DEd2YWI_0AZcMOA" mandatoryInput="_4hT_D3_DEd2YWI_0AZcMOA _4hT_EH_DEd2YWI_0AZcMOA" output="_4hT_D3_DEd2YWI_0AZcMOA _4hT_EH_DEd2YWI_0AZcMOA" performedPrimarilyBy="_4hT_CX_DEd2YWI_0AZcMOA _4hT_Cn_DEd2YWI_0AZcMOA">
+      <methodElementProperty xmi:id="_dutZkVxiEd-Ffovxdlhmsw" name="descriptor_localUsingInfo" value="_4hT_CX_DEd2YWI_0AZcMOA/performedPrimarilyBy/_4hT_Cn_DEd2YWI_0AZcMOA/performedPrimarilyBy/_4hT_C3_DEd2YWI_0AZcMOA/additionallyPerformedBy"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_z9ORcKnrEdyzmOHu2kw1UA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_4hT_B3_DEd2YWI_0AZcMOA" name="rule_architect" guid="_4hT_B3_DEd2YWI_0AZcMOA" presentationName="Rule Architect" briefDescription="The Rule Architect is responsible for defining and maintaining the structure of the rule-based application." isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA" modifies="_wD8ycKy4Ed2aLdlF48Bk1g _4hT_Dn_DEd2YWI_0AZcMOA">
+      <Role href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_JkVWIApyEdyKK5Go8zejMw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_4hT_CH_DEd2YWI_0AZcMOA" name="rule_administrator" guid="_4hT_CH_DEd2YWI_0AZcMOA" presentationName="Rule Administrator" briefDescription="The Rule Administrator manages the rule authoring and deployment. He executes the business rule management process and ensure the integrity of the rule set by using the rule life cycle and rule set life cycle." isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <Role href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_XiII4QqBEdyPCr4G1Tb79A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_4hT_CX_DEd2YWI_0AZcMOA" name="rule_analyst" guid="_4hT_CX_DEd2YWI_0AZcMOA" presentationName="Rule Analyst" briefDescription="The Rule Analyst is responsible for putting in place the rule approach and the rule stewardship. He is reponsible for the execution of the rule management process, and helps extract and write the business rules." isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA" modifies="_4hT_D3_DEd2YWI_0AZcMOA _4hT_EH_DEd2YWI_0AZcMOA">
+      <Role href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_XiII4gqBEdyPCr4G1Tb79A"/>
+      <responsibleForExclude href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_csL3wHrMEd2o_5d3MWaNxQ"/>
+      <responsibleForExclude href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_SlELAAsbEdyPCr4G1Tb79A"/>
+      <responsibleForExclude href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruW2gjqEdyj5bYZ0eCR5g"/>
+      <responsibleForExclude href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_sruW1QjqEdyj5bYZ0eCR5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_4hT_Cn_DEd2YWI_0AZcMOA" name="rule_writer" guid="_4hT_Cn_DEd2YWI_0AZcMOA" presentationName="Rule Writer" briefDescription="The Rule Writer writes rules using an authoring environment." isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA" modifies="_4hT_D3_DEd2YWI_0AZcMOA _4hT_EH_DEd2YWI_0AZcMOA">
+      <Role href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_XiII4wqBEdyPCr4G1Tb79A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_4hT_C3_DEd2YWI_0AZcMOA" name="business_analyst" guid="_4hT_C3_DEd2YWI_0AZcMOA" presentationName="Business Analyst" briefDescription="The Business Analyst (BA) acts as the bridge between the business and IT departments. He understands the IT technologies benefits such as BPM and BRMS and how he can use them. He has a good understanding of the business needs and problems. " isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <Role href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_Xh-X4AqBEdyPCr4G1Tb79A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4hT_DH_DEd2YWI_0AZcMOA" name="brms_organization_chart" guid="_4hT_DH_DEd2YWI_0AZcMOA" presentationName="Organization Chart" isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <methodElementProperty xmi:id="_dusygVxiEd-Ffovxdlhmsw" name="descriptor_createdByReferebce" value="true"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#__hcZYGDrEdyKlZvvtnMrMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4hT_DX_DEd2YWI_0AZcMOA" name="rule_governance_actors" guid="_4hT_DX_DEd2YWI_0AZcMOA" presentationName="Rule Governance Actors" isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <methodElementProperty xmi:id="_dusyglxiEd-Ffovxdlhmsw" name="descriptor_createdByReferebce" value="true"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_npFyQGDtEdyKlZvvtnMrMg"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_VzXG0GDtEdyKlZvvtnMrMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4hT_Dn_DEd2YWI_0AZcMOA" name="rule_life_cycle" guid="_4hT_Dn_DEd2YWI_0AZcMOA" presentationName="Rule Life Cycle" isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <methodElementProperty xmi:id="_dusyhFxiEd-Ffovxdlhmsw" name="descriptor_createdByReferebce" value="true"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_DmUjsFH8Edy72tV0zV7--Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4hT_D3_DEd2YWI_0AZcMOA" name="ruleset" guid="_4hT_D3_DEd2YWI_0AZcMOA" presentationName="Rule Set" briefDescription="Set of rule as a standalone component executed by a rule engine. " isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <methodElementProperty xmi:id="_duuAoFxiEd-Ffovxdlhmsw" name="descriptor_createdByReferebce" value="true"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_mqnOETmsEdy8N6BRpa8ByQ"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_vjWPcDzEEdyA6a_I80swHw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4hT_EH_DEd2YWI_0AZcMOA" name="rule_repository_in_db" guid="_4hT_EH_DEd2YWI_0AZcMOA" presentationName="Rule Repository in DB" isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <methodElementProperty xmi:id="_duuAoVxiEd-Ffovxdlhmsw" name="descriptor_createdByReferebce" value="true"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_jqxtYFttEdykEsBjRsVfZw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_8vcLgKvlEd2Pv_z50upsAg" name="develop_organization_map" guid="_8vcLgKvlEd2Pv_z50upsAg" presentationName="Develop Organization Map" briefDescription="The first task in rule governance consists in understanding the enterprise’s organizational structure to help in defining the adequate rule governance actors and the Rule Management Team." superActivities="_2o6S8X_DEd2YWI_0AZcMOA" additionallyPerformedBy="_4hT_B3_DEd2YWI_0AZcMOA" output="_4hT_DH_DEd2YWI_0AZcMOA _4hT_DX_DEd2YWI_0AZcMOA" performedPrimarilyBy="_GvZGIKvpEd2Pv_z50upsAg">
+      <methodElementProperty xmi:id="_dusygFxiEd-Ffovxdlhmsw" name="descriptor_localUsingInfo" value="_GvZGIKvpEd2Pv_z50upsAg/performedPrimarilyBy/_4hT_B3_DEd2YWI_0AZcMOA/additionallyPerformedBy"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_fCRxoGDmEdyKlZvvtnMrMg"/>
+      <guidelines href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_npFyQGDtEdyKlZvvtnMrMg"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_IFeJQKveEd2Pv_z50upsAg"/>
+      <selectedSteps href="uma://-AnRIdz0rPYyQVyzGVBxSqA#__8xccKvgEd2Pv_z50upsAg"/>
+      <selectedSteps href="uma://-AnRIdz0rPYyQVyzGVBxSqA#_MJLScKviEd2Pv_z50upsAg"/>
+      <selectedSteps href="uma://-AnRIdz0rPYyQVyzGVBxSqA#_U7ZWAKviEd2Pv_z50upsAg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_GvZGIKvpEd2Pv_z50upsAg" name="rule_steward" guid="_GvZGIKvpEd2Pv_z50upsAg" presentationName="Rule Steward" briefDescription="Develops and maintains a comprehensive management plan for the business rule management group activities, and drives the definition of the rule governance processes." isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA" modifies="_4hT_DH_DEd2YWI_0AZcMOA _4hT_DX_DEd2YWI_0AZcMOA">
+      <Role href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_bYUkIJyiEd23W8_-Tub7Ww"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_1AufcKv9Ed2Pv_z50upsAg" name="define_ruleset_ownership" guid="_1AufcKv9Ed2Pv_z50upsAg" presentationName="Define Rule Set Ownership and Access Control" briefDescription="For each rule set it has to be defined one owner and access control for team members and others. " superActivities="_2o6S8X_DEd2YWI_0AZcMOA" additionallyPerformedBy="_GvZGIKvpEd2Pv_z50upsAg" output="_wD8ycKy4Ed2aLdlF48Bk1g" performedPrimarilyBy="_4hT_B3_DEd2YWI_0AZcMOA">
+      <methodElementProperty xmi:id="_duqWQFxiEd-Ffovxdlhmsw" name="descriptor_localUsingInfo" value="_4hT_B3_DEd2YWI_0AZcMOA/performedPrimarilyBy/_GvZGIKvpEd2Pv_z50upsAg/additionallyPerformedBy"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_O93X4KvzEd2Pv_z50upsAg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_c83oYKv-Ed2Pv_z50upsAg" name="define_policy_change_templates" guid="_c83oYKv-Ed2Pv_z50upsAg" presentationName="Define Business Policy Change Templates" briefDescription="Define an inventory of probable ways in which the policies may or will change and with which frequency." superActivities="_2o6S8X_DEd2YWI_0AZcMOA" additionallyPerformedBy="_d6VEMKzEEd2aLdlF48Bk1g" performedPrimarilyBy="_4hT_CX_DEd2YWI_0AZcMOA">
+      <methodElementProperty xmi:id="_dutZkFxiEd-Ffovxdlhmsw" name="descriptor_localUsingInfo" value="_4hT_CX_DEd2YWI_0AZcMOA/performedPrimarilyBy/_d6VEMKzEEd2aLdlF48Bk1g/additionallyPerformedBy"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_tzUvgKv7Ed2Pv_z50upsAg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_wGoukKv-Ed2Pv_z50upsAg" name="plan_deployment" guid="_wGoukKv-Ed2Pv_z50upsAg" presentationName="Plan Deployment" briefDescription="Plan deployment procedures for the different platforms: testing, staging and production. Also plan for production monitoring. " superActivities="_2o6S8X_DEd2YWI_0AZcMOA" performedPrimarilyBy="_4hT_B3_DEd2YWI_0AZcMOA">
+      <methodElementProperty xmi:id="_durkYVxiEd-Ffovxdlhmsw" name="descriptor_localUsingInfo" value="_4hT_B3_DEd2YWI_0AZcMOA/performedPrimarilyBy"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_E5968Kv8Ed2Pv_z50upsAg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_49L4gKv-Ed2Pv_z50upsAg" name="develop_process_maps" guid="_49L4gKv-Ed2Pv_z50upsAg" presentationName="Develop Process Maps" briefDescription="For each of the rule development and management processes, the architect should develop a process map to be followed during rule governance." superActivities="_2o6S8X_DEd2YWI_0AZcMOA" additionallyPerformedBy="_4hT_B3_DEd2YWI_0AZcMOA" performedPrimarilyBy="_GvZGIKvpEd2Pv_z50upsAg">
+      <methodElementProperty xmi:id="_dusyhVxiEd-Ffovxdlhmsw" name="descriptor_localUsingInfo" value="_GvZGIKvpEd2Pv_z50upsAg/performedPrimarilyBy/_4hT_B3_DEd2YWI_0AZcMOA/additionallyPerformedBy"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_deyUkKv8Ed2Pv_z50upsAg"/>
+      <selectedSteps href="uma://-aim_xTKZyZptD_PbMWAtVA#_9jqRIKy-Ed2aLdlF48Bk1g"/>
+      <selectedSteps href="uma://-aim_xTKZyZptD_PbMWAtVA#_K4JmAKy_Ed2aLdlF48Bk1g"/>
+      <selectedSteps href="uma://-aim_xTKZyZptD_PbMWAtVA#_aZ6DsKy_Ed2aLdlF48Bk1g"/>
+      <selectedSteps href="uma://-aim_xTKZyZptD_PbMWAtVA#_lmDzEKy_Ed2aLdlF48Bk1g"/>
+      <selectedSteps href="uma://-aim_xTKZyZptD_PbMWAtVA#_rMlWsKy_Ed2aLdlF48Bk1g"/>
+      <selectedSteps href="uma://-aim_xTKZyZptD_PbMWAtVA#__pNL4Ky_Ed2aLdlF48Bk1g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_wD8ycKy4Ed2aLdlF48Bk1g" name="rule_set_table" guid="_wD8ycKy4Ed2aLdlF48Bk1g" presentationName="Rule Set Table" briefDescription="One or more tables to describe rule sets and related information such goals, parameters, ownership and access control." isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <methodElementProperty xmi:id="_duqWQVxiEd-Ffovxdlhmsw" name="descriptor_createdByReferebce" value="true"/>
+      <templates href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_mqnOETmsEdy8N6BRpa8ByQ"/>
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_gE600Ky2Ed2aLdlF48Bk1g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_b0uJ8KzBEd2aLdlF48Bk1g" name="monitor_improve_process" guid="_b0uJ8KzBEd2aLdlF48Bk1g" presentationName="Monitor and Improve Process" briefDescription="Rule governance process should be monitored and improved to achieve better efficiency." superActivities="_2o6S8X_DEd2YWI_0AZcMOA" additionallyPerformedBy="_4hT_B3_DEd2YWI_0AZcMOA" performedPrimarilyBy="_GvZGIKvpEd2Pv_z50upsAg">
+      <methodElementProperty xmi:id="_dupvMFxiEd-Ffovxdlhmsw" name="descriptor_localUsingInfo" value="_GvZGIKvpEd2Pv_z50upsAg/performedPrimarilyBy/_4hT_B3_DEd2YWI_0AZcMOA/additionallyPerformedBy"/>
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_w0x40KzAEd2aLdlF48Bk1g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_d6VEMKzEEd2aLdlF48Bk1g" name="Subject Matter Expert" guid="_d6VEMKzEEd2aLdlF48Bk1g" presentationName="Subject Matter Expert" briefDescription="The Subject Matter Expert (SME) is responsible for defining the business processes, the business policies and the application requirements. He leads the business rules acquisition activities as a domain expert and uses the Rules Management Application as reviewer." isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <methodElementProperty xmi:id="_duq9UFxiEd-Ffovxdlhmsw" name="descriptor_customization" value="1"/>
+      <Role href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_XiII5AqBEdyPCr4G1Tb79A"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_2o6S8X_DEd2YWI_0AZcMOA" name="define_rule_governance" guid="_2o6S8X_DEd2YWI_0AZcMOA" presentationName="Define Rule Governance" breakdownElements="_8vcLgKvlEd2Pv_z50upsAg _1AufcKv9Ed2Pv_z50upsAg _c83oYKv-Ed2Pv_z50upsAg _4hT_BH_DEd2YWI_0AZcMOA _4hT_BX_DEd2YWI_0AZcMOA _wGoukKv-Ed2Pv_z50upsAg _49L4gKv-Ed2Pv_z50upsAg _b0uJ8KzBEd2aLdlF48Bk1g _4hT_Bn_DEd2YWI_0AZcMOA _GvZGIKvpEd2Pv_z50upsAg _4hT_B3_DEd2YWI_0AZcMOA _4hT_CH_DEd2YWI_0AZcMOA _4hT_CX_DEd2YWI_0AZcMOA _4hT_Cn_DEd2YWI_0AZcMOA _4hT_C3_DEd2YWI_0AZcMOA _d6VEMKzEEd2aLdlF48Bk1g _4hT_DH_DEd2YWI_0AZcMOA _4hT_DX_DEd2YWI_0AZcMOA _4hT_Dn_DEd2YWI_0AZcMOA _4hT_D3_DEd2YWI_0AZcMOA _4hT_EH_DEd2YWI_0AZcMOA _wD8ycKy4Ed2aLdlF48Bk1g">
+      <methodElementProperty xmi:id="_duxD8FxiEd-Ffovxdlhmsw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-Cr6J3-t_GtgvW9ciCDH6Gg" href="uma://-Cr6J3-t_GtgvW9ciCDH6Gg#-Cr6J3-t_GtgvW9ciCDH6Gg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>
